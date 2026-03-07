@@ -1,5 +1,5 @@
 {
-  "name": "gw2-edge-tool",
+  "name": "gw2-tracker",
   "private": true,
   "workspaces": [
     "apps/web",
