@@ -1,0 +1,7 @@
+name = "gw2-edge-tool-worker"
+main = "src/index.ts"
+compatibility_date = "2025-02-28"
+
+# local dev only for now
+[dev]
+port = 8787

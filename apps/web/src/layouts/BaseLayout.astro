@@ -1,0 +1,17 @@
+---
+const { title = "GW2 API Tool" } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <main style="max-width: 720px; margin: 48px auto; font-family: system-ui, sans-serif;">
+      <slot />
+    </main>
+  </body>
+</html>

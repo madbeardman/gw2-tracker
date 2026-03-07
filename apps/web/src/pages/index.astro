@@ -1,0 +1,83 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import keyCheckEntryUrl from "../scripts/keyCheck.entry.ts?url";
+---
+
+<BaseLayout title="GW2 API Tool">
+  <h1 style="margin-bottom: 8px;">GW2 API Key Check</h1>
+  <p style="margin-top: 0; opacity: 0.8;">
+    Paste a Guild Wars 2 API key to see what permissions it has.
+  </p>
+
+  <div id="form-wrap">
+    <label for="apiKey" style="display:block; margin: 16px 0 8px;"
+      >API Key</label
+    >
+    <input
+      id="apiKey"
+      type="password"
+      autocomplete="off"
+      spellcheck="false"
+      style="width:100%; padding:12px; font-size:16px;"
+      placeholder="e.g. AAAAA-BBBBB-CCCCC-..."
+    />
+    <button
+      id="submitBtn"
+      style="margin-top: 12px; padding: 10px 14px; font-size: 16px;"
+    >
+      Check key
+    </button>
+
+    <p id="error" style="color: #b00020; margin-top: 12px; display:none;"></p>
+  </div>
+
+  <div id="result" style="display:none; margin-top: 24px;">
+    <h2 style="margin-bottom: 8px;">Key Details</h2>
+
+    <div style="margin: 12px 0;">
+      <h3 style="margin: 0 0 8px;">Permissions</h3>
+      <p style="margin: 0 0 8px; opacity: 0.8;">
+        Click a permission to fetch its data (raw JSON).
+      </p>
+      <div id="permLinks" style="display:flex; gap: 10px; flex-wrap: wrap;">
+      </div>
+    </div>
+
+    <h3 style="margin: 16px 0 8px;">Response</h3>
+    <div
+      id="characterHeader"
+      style="display:none; align-items:center; gap:12px; margin: 12px 0;"
+    >
+      <img
+        id="professionIcon"
+        alt=""
+        width="36"
+        height="36"
+        style="display:none; border-radius: 6px;"
+      />
+      <img
+        id="raceIcon"
+        alt=""
+        width="36"
+        height="36"
+        style="display:none; border-radius: 6px;"
+      />
+      <div style="display:flex; flex-direction:column; line-height: 1.2;">
+        <div id="characterTitle" style="font-weight: 700;"></div>
+        <div id="characterSubtitle" style="opacity: 0.8; font-size: 14px;">
+        </div>
+      </div>
+    </div>
+    <div id="walletList" style="display:none; margin-top: 12px;"></div>
+    <pre id="json" style="padding: 12px; background: #f6f6f6; overflow:auto;">
+    </pre>
+
+    <div style="display:flex; gap: 10px; margin-top: 12px;">
+      <button id="resetBtn" style="padding: 10px 14px; font-size: 16px;">
+        Use a different key
+      </button>
+    </div>
+  </div>
+
+  <script type="module" src={keyCheckEntryUrl}></script>
+</BaseLayout>

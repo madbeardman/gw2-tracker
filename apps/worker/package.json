@@ -1,0 +1,16 @@
+{
+  "name": "worker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "typecheck": "tsc --noEmit",
+    "test": "node -e \"console.log('no worker tests yet')\"",
+    "ci": "npm run typecheck"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250200.0",
+    "typescript": "^5.0.0",
+    "wrangler": "^3.0.0"
+  }
+}

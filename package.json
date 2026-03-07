@@ -1,0 +1,19 @@
+{
+  "name": "gw2-edge-tool",
+  "private": true,
+  "workspaces": [
+    "apps/web",
+    "apps/worker"
+  ],
+  "scripts": {
+    "dev:web": "npm --workspace apps/web run dev",
+    "dev:worker": "npm --workspace apps/worker run dev",
+    "dev": "npm run dev:worker & npm run dev:web",
+    "test": "npm --workspace apps/web test && npm --workspace apps/worker test",
+    "ci": "npm --workspace apps/web run ci && npm --workspace apps/worker run ci"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1",
+    "prettier-plugin-astro": "^0.14.1"
+  }
+}
