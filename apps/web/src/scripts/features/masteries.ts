@@ -33,6 +33,25 @@ const REGION_ORDER = [
   "Visions of Eternity",
 ];
 
+const REGION_ICON_MAP: Record<string, string> = {
+  "Central Tyria":
+    "/static/gw2/icons/masteries/Mastery_point_(Central_Tyria).png",
+  "Heart of Thorns":
+    "/static/gw2/icons/masteries/Mastery_point_(Heart_of_Thorns).png",
+  "Path of Fire":
+    "/static/gw2/icons/masteries/Mastery_point_(Path_of_Fire).png",
+  "Icebrood Saga":
+    "/static/gw2/icons/masteries/Mastery_point_(Icebrood_Saga).png",
+  "End of Dragons":
+    "/static/gw2/icons/masteries/Mastery_point_(End_of_Dragons).png",
+  "Secrets of the Obscure":
+    "/static/gw2/icons/masteries/Mastery_point_(Secrets_of_the_Obscure).png",
+  "Janthir Wilds":
+    "/static/gw2/icons/masteries/Mastery_point_(Janthir_Wilds).png",
+  "Visions of Eternity":
+    "/static/gw2/icons/masteries/Mastery_point_(Visions_of_Eternity).png",
+};
+
 type MasteryInsightEntry = {
   masteryPointId: number;
   achievementId: number | null;
@@ -61,6 +80,10 @@ function getRegionSortIndex(region: string): number {
   return idx === -1 ? 999 : idx;
 }
 
+function getRegionIcon(region: string): string | null {
+  return REGION_ICON_MAP[region] ?? null;
+}
+
 function groupInsightsByRegionAndMap(
   insights: MasteryInsightEntry[],
 ): Map<string, Map<string, MasteryInsightEntry[]>> {
@@ -84,6 +107,28 @@ function groupInsightsByRegionAndMap(
   }
 
   return regions;
+}
+
+function escapeHtml(value: string): string {
+  return value
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
+}
+
+function renderRegionHeading(region: string): string {
+  const safeRegion = escapeHtml(region);
+  const icon = getRegionIcon(region);
+
+  if (!icon) {
+    return safeRegion;
+  }
+
+  return `${safeRegion} <img src="${escapeHtml(
+    icon,
+  )}" alt="" style="width:24px;height:24px;vertical-align:text-bottom;margin-left:8px;">`;
 }
 
 export async function showMasteries(ctx: UIContext): Promise<void> {
@@ -168,8 +213,8 @@ export async function showMasteries(ctx: UIContext): Promise<void> {
     for (const [region, defs] of sortedRegions) {
       const displayRegion = getDisplayRegion(region);
 
-      lines.push(displayRegion);
-      lines.push("-".repeat(displayRegion.length));
+      lines.push(renderRegionHeading(displayRegion));
+      lines.push(escapeHtml("-".repeat(displayRegion.length)));
 
       const pointsRegion = getDisplayRegion(region);
       const regionPoints = masteryPoints.find((p) => p.region === pointsRegion);
@@ -182,17 +227,23 @@ export async function showMasteries(ctx: UIContext): Promise<void> {
           const stillUnlockable = totalAvailable - regionPoints.earned;
 
           lines.push(
-            `Mastery Points: ${totalAvailable} total / ${regionPoints.earned} earned / ${regionPoints.spent} spent / ${unspent} unspent / ${stillUnlockable} still unlockable`,
+            escapeHtml(
+              `Mastery Points: ${totalAvailable} total / ${regionPoints.earned} earned / ${regionPoints.spent} spent / ${unspent} unspent / ${stillUnlockable} still unlockable`,
+            ),
           );
         } else {
           lines.push(
-            `Mastery Points: ${regionPoints.earned} earned / ${regionPoints.spent} spent / ${unspent} unspent`,
+            escapeHtml(
+              `Mastery Points: ${regionPoints.earned} earned / ${regionPoints.spent} spent / ${unspent} unspent`,
+            ),
           );
         }
       } else {
         if (typeof totalAvailable === "number") {
           lines.push(
-            `Mastery Points: ${totalAvailable} total / No account data`,
+            escapeHtml(
+              `Mastery Points: ${totalAvailable} total / No account data`,
+            ),
           );
         } else {
           lines.push("Mastery Points: No data");
@@ -207,13 +258,13 @@ export async function showMasteries(ctx: UIContext): Promise<void> {
         const maxLevel = def.levels.length;
 
         if (currentLevel >= maxLevel) {
-          lines.push(`• ${def.name} — complete`);
+          lines.push(escapeHtml(`• ${def.name} — complete`));
         } else {
           const nextLevel = def.levels[currentLevel];
-          lines.push(`• ${def.name} — ${currentLevel}/${maxLevel}`);
+          lines.push(escapeHtml(`• ${def.name} — ${currentLevel}/${maxLevel}`));
 
           if (nextLevel?.name) {
-            lines.push(`  Next: ${nextLevel.name}`);
+            lines.push(escapeHtml(`  Next: ${nextLevel.name}`));
           }
         }
       }
@@ -233,7 +284,9 @@ export async function showMasteries(ctx: UIContext): Promise<void> {
 
         lines.push("");
         lines.push(
-          `Insight Mastery — ${regionInsightUnlocked}/${regionInsightTotal}`,
+          escapeHtml(
+            `Insight Mastery — ${regionInsightUnlocked}/${regionInsightTotal}`,
+          ),
         );
         lines.push("---------------");
 
@@ -253,17 +306,30 @@ export async function showMasteries(ctx: UIContext): Promise<void> {
           ).length;
           const totalCount = sortedInsights.length;
 
-          lines.push(`${mapName} — ${unlockedCount}/${totalCount}`);
+          lines.push(escapeHtml(`${mapName} — ${unlockedCount}/${totalCount}`));
 
           for (const insight of sortedInsights) {
             const unlocked = unlockedInsights.has(insight.masteryPointId);
             const mark = unlocked ? "✓" : "✗";
             const label =
               insight.shortName ?? insight.name ?? "Unknown Insight";
+            const color = unlocked ? "#2e7d32" : "#c62828";
 
-            const wikiSuffix = !unlocked && insight.wikiUrl ? " 🔗" : "";
-
-            lines.push(`  ${mark} ${label}${wikiSuffix}`);
+            if (!unlocked && insight.wikiUrl) {
+              lines.push(
+                `  <span style="color:${color}">${escapeHtml(mark)} ${escapeHtml(
+                  label,
+                )}</span> <a href="${escapeHtml(
+                  insight.wikiUrl,
+                )}" target="_blank" rel="noopener noreferrer" title="Open wiki page">🔗</a>`,
+              );
+            } else {
+              lines.push(
+                `  <span style="color:${color}">${escapeHtml(mark)} ${escapeHtml(
+                  label,
+                )}</span>`,
+              );
+            }
           }
 
           lines.push("");
@@ -273,12 +339,9 @@ export async function showMasteries(ctx: UIContext): Promise<void> {
       lines.push("");
     }
 
-    if (lines.length === 0) {
-      ctx.setTextBlock(["No mastery data could be rendered."]);
-      return;
-    }
-
-    ctx.setTextBlock(lines);
+    ctx.setHtmlBlock(
+      `<pre class="masteries-view" style="margin: 0; white-space: pre-wrap; line-height: 1.45;">${lines.join("\n")}</pre>`,
+    );
   } catch (e: unknown) {
     if (e instanceof Error) {
       console.error("showMasteries failed:", e);

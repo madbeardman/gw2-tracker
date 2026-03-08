@@ -20,6 +20,7 @@ export type UIContext = {
   clearError: () => void;
   setJson: (data: unknown) => void;
   setTextBlock: (lines: string[]) => void;
+  setHtmlBlock: (html: string) => void;
   setLoading: (label?: string) => void;
 
   fetchJson: (path: string) => Promise<unknown>;

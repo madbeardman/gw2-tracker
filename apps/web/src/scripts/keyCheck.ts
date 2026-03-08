@@ -50,6 +50,7 @@ export function initKeyCheck(): void {
     clearError,
     setJson,
     setTextBlock,
+    setHtmlBlock,
     setLoading,
 
     fetchJson,
@@ -65,6 +66,10 @@ export function initKeyCheck(): void {
   function setTextBlock(lines: string[]): void {
     showPre();
     jsonEl.textContent = lines.join("\n");
+  }
+
+  function setHtmlBlock(html: string) {
+    jsonEl.innerHTML = html;
   }
 
   function renderTopLevelPermissions(): void {
