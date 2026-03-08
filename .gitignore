@@ -52,3 +52,7 @@ Thumbs.db
 # ---------------------------
 .vscode
 .idea
+
+# GW2 build debug files
+apps/web/public/static/gw2/*-debug.json
+apps/web/public/static/gw2/*-unknown.json

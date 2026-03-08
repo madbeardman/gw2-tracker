@@ -10,7 +10,9 @@
     "build:currencies": "node src/scripts/build-currencies.mjs",
     "build:icons": "node src/scripts/build-icons.mjs",
     "build:masteries": "node src/scripts/build-masteries.mjs",
-    "build:mastery-achievements": "node src/scripts/build-mastery-achievements.mjs"
+    "build:mastery-achievements": "node src/scripts/build-mastery-achievements.mjs",
+    "build:mastery-insights": "node src/scripts/build-mastery-insights.mjs",
+    "build:mastery-sources": "node src/scripts/build-mastery-sources.mjs"
   },
   "dependencies": {
     "astro": "^5.17.1"

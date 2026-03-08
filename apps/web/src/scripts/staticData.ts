@@ -56,3 +56,8 @@ export async function getMasteryPointTotals(): Promise<Record<string, number>> {
   masteryPointTotalsCache = (await res.json()) as Record<string, number>;
   return masteryPointTotalsCache;
 }
+
+export async function getMasteryInsights() {
+  const res = await fetch("/static/gw2/mastery-insights.json");
+  return res.json();
+}

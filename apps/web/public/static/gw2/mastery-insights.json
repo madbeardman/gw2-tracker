@@ -1,0 +1,5522 @@
+[
+  {
+    "masteryPointId": 324,
+    "achievementId": 3501,
+    "sourceType": "insight",
+    "name": "Bloodtide Coast Insight: Bloody Bill's Base",
+    "shortName": "Bloody Bill's Base",
+    "mapName": "Bloodtide Coast",
+    "region": "Tyria",
+    "regionName": "Central Tyria",
+    "expansion": "Central Tyria",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Bloodtide_Coast_Insight:_Bloody_Bill's_Base",
+    "description": null,
+    "requirement": "Discover this Mastery Insight in Bloodtide Coast.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 319,
+    "achievementId": 3534,
+    "sourceType": "insight",
+    "name": "Dredgehaunt Cliffs Insight: Dostoev Sky Peak",
+    "shortName": "Dostoev Sky Peak",
+    "mapName": "Dredgehaunt Cliffs",
+    "region": "Tyria",
+    "regionName": "Central Tyria",
+    "expansion": "Central Tyria",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Dredgehaunt_Cliffs_Insight:_Dostoev_Sky_Peak",
+    "description": null,
+    "requirement": "Discover this Mastery Insight in Dredgehaunt Cliffs.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 320,
+    "achievementId": 3530,
+    "sourceType": "insight",
+    "name": "Fireheart Rise Insight: Cozen Desolation",
+    "shortName": "Cozen Desolation",
+    "mapName": "Fireheart Rise",
+    "region": "Tyria",
+    "regionName": "Central Tyria",
+    "expansion": "Central Tyria",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Fireheart_Rise_Insight:_Cozen_Desolation",
+    "description": null,
+    "requirement": "Discover this Mastery Insight in Fireheart Rise.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 313,
+    "achievementId": 3539,
+    "sourceType": "insight",
+    "name": "Harathi Hinterlands Insight: Hidden Ourobon",
+    "shortName": "Hidden Ourobon",
+    "mapName": "Harathi Hinterlands",
+    "region": "Tyria",
+    "regionName": "Central Tyria",
+    "expansion": "Central Tyria",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Harathi_Hinterlands_Insight:_Hidden_Ourobon",
+    "description": null,
+    "requirement": "Discover this Mastery Insight in Harathi Hinterlands.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 315,
+    "achievementId": 3526,
+    "sourceType": "insight",
+    "name": "Iron Marches Insight: Sunken Halls of Clarent",
+    "shortName": "Sunken Halls of Clarent",
+    "mapName": "Iron Marches",
+    "region": "Tyria",
+    "regionName": "Central Tyria",
+    "expansion": "Central Tyria",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Iron_Marches_Insight:_Sunken_Halls_of_Clarent",
+    "description": null,
+    "requirement": "Discover this Mastery Insight in Iron Marches.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 325,
+    "achievementId": 3476,
+    "sourceType": "insight",
+    "name": "Malchor's Leap Insight: Scavenger's Chasm",
+    "shortName": "Scavenger's Chasm",
+    "mapName": "Malchor's Leap",
+    "region": "Tyria",
+    "regionName": "Central Tyria",
+    "expansion": "Central Tyria",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Malchor's_Leap_Insight:_Scavenger's_Chasm",
+    "description": null,
+    "requirement": "Discover this Mastery Insight in Malchor's Leap.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 314,
+    "achievementId": 3531,
+    "sourceType": "insight",
+    "name": "Mount Maelstrom Insight: Volcanic Rim",
+    "shortName": "Volcanic Rim",
+    "mapName": "Mount Maelstrom",
+    "region": "Tyria",
+    "regionName": "Central Tyria",
+    "expansion": "Central Tyria",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Mount_Maelstrom_Insight:_Volcanic_Rim",
+    "description": null,
+    "requirement": "Discover this Mastery Insight in Mount Maelstrom.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 309,
+    "achievementId": 3543,
+    "sourceType": "insight",
+    "name": "Sparkfly Fen Insight: Shattercleft Hills",
+    "shortName": "Shattercleft Hills",
+    "mapName": "Sparkfly Fen",
+    "region": "Tyria",
+    "regionName": "Central Tyria",
+    "expansion": "Central Tyria",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Sparkfly_Fen_Insight:_Shattercleft_Hills",
+    "description": null,
+    "requirement": "Discover this Mastery Insight in Sparkfly Fen.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 323,
+    "achievementId": 3504,
+    "sourceType": "insight",
+    "name": "Timberline Falls Insight: Copperhammer Mines",
+    "shortName": "Copperhammer Mines",
+    "mapName": "Timberline Falls",
+    "region": "Tyria",
+    "regionName": "Central Tyria",
+    "expansion": "Central Tyria",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Timberline_Falls_Insight:_Copperhammer_Mines",
+    "description": null,
+    "requirement": "Discover this Mastery Insight in Timberline Falls.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 618,
+    "achievementId": 6404,
+    "sourceType": "insight",
+    "name": "Dragon's End Insight: Brotherhood Rooftop",
+    "shortName": "Brotherhood Rooftop",
+    "mapName": "Dragon's End",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Dragon's_End_Insight:_Brotherhood_Rooftop",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in Dragon's End.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 632,
+    "achievementId": 6406,
+    "sourceType": "insight",
+    "name": "Dragon's End Insight: Jade Waves",
+    "shortName": "Jade Waves",
+    "mapName": "Dragon's End",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Dragon's_End_Insight:_Jade_Waves",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in Dragon's End.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 626,
+    "achievementId": 6395,
+    "sourceType": "insight",
+    "name": "Dragon's End Insight: Quarry Crane",
+    "shortName": "Quarry Crane",
+    "mapName": "Dragon's End",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Dragon's_End_Insight:_Quarry_Crane",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in Dragon's End.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 570,
+    "achievementId": 6360,
+    "sourceType": "insight",
+    "name": "Dragon's End Insight: Shrine Rooftop",
+    "shortName": "Shrine Rooftop",
+    "mapName": "Dragon's End",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Dragon's_End_Insight:_Shrine_Rooftop",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in Dragon's End.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 600,
+    "achievementId": 6122,
+    "sourceType": "insight",
+    "name": "Dragon's End Insight: Warehouse",
+    "shortName": "Warehouse",
+    "mapName": "Dragon's End",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Dragon's_End_Insight:_Warehouse",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in Dragon's End.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 627,
+    "achievementId": 6351,
+    "sourceType": "insight",
+    "name": "Echovald Wilds Insight: Altrumm Mines Catacomb",
+    "shortName": "Altrumm Mines Catacomb",
+    "mapName": "Echovald Wilds",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Echovald_Wilds_Insight:_Altrumm_Mines_Catacomb",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in the Echovald Wilds.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 619,
+    "achievementId": 6238,
+    "sourceType": "insight",
+    "name": "Echovald Wilds Insight: Ancient Archives",
+    "shortName": "Ancient Archives",
+    "mapName": "Echovald Wilds",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Echovald_Wilds_Insight:_Ancient_Archives",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in the Echovald Wilds.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 566,
+    "achievementId": 6094,
+    "sourceType": "insight",
+    "name": "Echovald Wilds Insight: Aspenwood Passageway",
+    "shortName": "Aspenwood Passageway",
+    "mapName": "Echovald Wilds",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Echovald_Wilds_Insight:_Aspenwood_Passageway",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in the Echovald Wilds.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 647,
+    "achievementId": 6076,
+    "sourceType": "insight",
+    "name": "Echovald Wilds Insight: Cemetery Pond",
+    "shortName": "Cemetery Pond",
+    "mapName": "Echovald Wilds",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Echovald_Wilds_Insight:_Cemetery_Pond",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in the Echovald Wilds.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 590,
+    "achievementId": 6244,
+    "sourceType": "insight",
+    "name": "Echovald Wilds Insight: Ferndale Stairs",
+    "shortName": "Ferndale Stairs",
+    "mapName": "Echovald Wilds",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Echovald_Wilds_Insight:_Ferndale_Stairs",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in the Echovald Wilds.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 609,
+    "achievementId": 6249,
+    "sourceType": "insight",
+    "name": "Echovald Wilds Insight: Fort Aspenwood",
+    "shortName": "Fort Aspenwood",
+    "mapName": "Echovald Wilds",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Echovald_Wilds_Insight:_Fort_Aspenwood",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in the Echovald Wilds.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 650,
+    "achievementId": 6102,
+    "sourceType": "insight",
+    "name": "Echovald Wilds Insight: House zu Heltzer",
+    "shortName": "House zu Heltzer",
+    "mapName": "Echovald Wilds",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Echovald_Wilds_Insight:_House_zu_Heltzer",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in the Echovald Wilds.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 560,
+    "achievementId": 6334,
+    "sourceType": "insight",
+    "name": "Echovald Wilds Insight: Mori Village",
+    "shortName": "Mori Village",
+    "mapName": "Echovald Wilds",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Echovald_Wilds_Insight:_Mori_Village",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in the Echovald Wilds.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 642,
+    "achievementId": 6226,
+    "sourceType": "insight",
+    "name": "Echovald Wilds Insight: Qinkaishi Basin",
+    "shortName": "Qinkaishi Basin",
+    "mapName": "Echovald Wilds",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Echovald_Wilds_Insight:_Qinkaishi_Basin",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in the Echovald Wilds.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 657,
+    "achievementId": 6462,
+    "sourceType": "insight",
+    "name": "Echovald Wilds Insight: Saprophyte's Pond",
+    "shortName": "Saprophyte's Pond",
+    "mapName": "Echovald Wilds",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Echovald_Wilds_Insight:_Saprophyte's_Pond",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in the Echovald Wilds.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 654,
+    "achievementId": 6338,
+    "sourceType": "insight",
+    "name": "Echovald Wilds Insight: Temple of the Dredge",
+    "shortName": "Temple of the Dredge",
+    "mapName": "Echovald Wilds",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Echovald_Wilds_Insight:_Temple_of_the_Dredge",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in the Echovald Wilds.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 559,
+    "achievementId": 6382,
+    "sourceType": "insight",
+    "name": "Echovald Wilds Insight: Wrightstone Chantry",
+    "shortName": "Wrightstone Chantry",
+    "mapName": "Echovald Wilds",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Echovald_Wilds_Insight:_Wrightstone_Chantry",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in the Echovald Wilds.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 575,
+    "achievementId": 6182,
+    "sourceType": "insight",
+    "name": "New Kaineng Insight: Ancient Vault",
+    "shortName": "Ancient Vault",
+    "mapName": "New Kaineng",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/New_Kaineng_Insight:_Ancient_Vault",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in New Kaineng City.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 552,
+    "achievementId": 6389,
+    "sourceType": "insight",
+    "name": "New Kaineng Insight: Jade Monument",
+    "shortName": "Jade Monument",
+    "mapName": "New Kaineng",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/New_Kaineng_Insight:_Jade_Monument",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in New Kaineng City.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 549,
+    "achievementId": 6341,
+    "sourceType": "insight",
+    "name": "New Kaineng Insight: Lutgardis Market",
+    "shortName": "Lutgardis Market",
+    "mapName": "New Kaineng",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/New_Kaineng_Insight:_Lutgardis_Market",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in New Kaineng City.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 598,
+    "achievementId": 6449,
+    "sourceType": "insight",
+    "name": "New Kaineng Insight: Lutgardis Plaza",
+    "shortName": "Lutgardis Plaza",
+    "mapName": "New Kaineng",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/New_Kaineng_Insight:_Lutgardis_Plaza",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in New Kaineng City.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 643,
+    "achievementId": 6477,
+    "sourceType": "insight",
+    "name": "New Kaineng Insight: Lutgardis Plaza Rooftop Garden",
+    "shortName": "Lutgardis Plaza Rooftop Garden",
+    "mapName": "New Kaineng",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/New_Kaineng_Insight:_Lutgardis_Plaza_Rooftop_Garden",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in New Kaineng City.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 588,
+    "achievementId": 6441,
+    "sourceType": "insight",
+    "name": "New Kaineng Insight: Ministry Ward Platform",
+    "shortName": "Ministry Ward Platform",
+    "mapName": "New Kaineng",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/New_Kaineng_Insight:_Ministry_Ward_Platform",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in New Kaineng City.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 656,
+    "achievementId": 6177,
+    "sourceType": "insight",
+    "name": "New Kaineng Insight: Ministry Ward Waypoint",
+    "shortName": "Ministry Ward Waypoint",
+    "mapName": "New Kaineng",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/New_Kaineng_Insight:_Ministry_Ward_Waypoint",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in New Kaineng City.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 565,
+    "achievementId": 6476,
+    "sourceType": "insight",
+    "name": "New Kaineng Insight: Naksi Bay Ruins",
+    "shortName": "Naksi Bay Ruins",
+    "mapName": "New Kaineng",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/New_Kaineng_Insight:_Naksi_Bay_Ruins",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in New Kaineng City.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 655,
+    "achievementId": 6214,
+    "sourceType": "insight",
+    "name": "New Kaineng Insight: Petrified Shipping Docks",
+    "shortName": "Petrified Shipping Docks",
+    "mapName": "New Kaineng",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/New_Kaineng_Insight:_Petrified_Shipping_Docks",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in New Kaineng City.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 602,
+    "achievementId": 6507,
+    "sourceType": "insight",
+    "name": "New Kaineng Insight: Pool of Tranquility",
+    "shortName": "Pool of Tranquility",
+    "mapName": "New Kaineng",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/New_Kaineng_Insight:_Pool_of_Tranquility",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in New Kaineng City.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 636,
+    "achievementId": 6128,
+    "sourceType": "insight",
+    "name": "New Kaineng Insight: Salvage Yard",
+    "shortName": "Salvage Yard",
+    "mapName": "New Kaineng",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/New_Kaineng_Insight:_Salvage_Yard",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in New Kaineng City.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 660,
+    "achievementId": 6365,
+    "sourceType": "insight",
+    "name": "New Kaineng Insight: Shipwreck Graveyard",
+    "shortName": "Shipwreck Graveyard",
+    "mapName": "New Kaineng",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/New_Kaineng_Insight:_Shipwreck_Graveyard",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in New Kaineng City.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 576,
+    "achievementId": 6379,
+    "sourceType": "insight",
+    "name": "New Kaineng Insight: South Old Kaineng Ruins",
+    "shortName": "South Old Kaineng Ruins",
+    "mapName": "New Kaineng",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/New_Kaineng_Insight:_South_Old_Kaineng_Ruins",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in New Kaineng City.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 606,
+    "achievementId": 6281,
+    "sourceType": "insight",
+    "name": "Seitung Province Insight: Abandoned Temple Rooftop",
+    "shortName": "Abandoned Temple Rooftop",
+    "mapName": "Seitung Province",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Seitung_Province_Insight:_Abandoned_Temple_Rooftop",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in Seitung Province.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 613,
+    "achievementId": 6070,
+    "sourceType": "insight",
+    "name": "Seitung Province Insight: Affluent House",
+    "shortName": "Affluent House",
+    "mapName": "Seitung Province",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Seitung_Province_Insight:_Affluent_House",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in Seitung Province.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 659,
+    "achievementId": 6100,
+    "sourceType": "insight",
+    "name": "Seitung Province Insight: Airship Wreckage",
+    "shortName": "Airship Wreckage",
+    "mapName": "Seitung Province",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Seitung_Province_Insight:_Airship_Wreckage",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in Seitung Province.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 573,
+    "achievementId": 6119,
+    "sourceType": "insight",
+    "name": "Seitung Province Insight: Camp Peaks",
+    "shortName": "Camp Peaks",
+    "mapName": "Seitung Province",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Seitung_Province_Insight:_Camp_Peaks",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in Seitung Province.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 652,
+    "achievementId": 6104,
+    "sourceType": "insight",
+    "name": "Seitung Province Insight: Crystal Cave",
+    "shortName": "Crystal Cave",
+    "mapName": "Seitung Province",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Seitung_Province_Insight:_Crystal_Cave",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in Seitung Province.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 572,
+    "achievementId": 6191,
+    "sourceType": "insight",
+    "name": "Seitung Province Insight: Derelict Temple",
+    "shortName": "Derelict Temple",
+    "mapName": "Seitung Province",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Seitung_Province_Insight:_Derelict_Temple",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in Seitung Province.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 645,
+    "achievementId": 6267,
+    "sourceType": "insight",
+    "name": "Seitung Province Insight: Dreary Caves",
+    "shortName": "Dreary Caves",
+    "mapName": "Seitung Province",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Seitung_Province_Insight:_Dreary_Caves",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in Seitung Province.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 648,
+    "achievementId": 6095,
+    "sourceType": "insight",
+    "name": "Seitung Province Insight: Monastery Temple",
+    "shortName": "Monastery Temple",
+    "mapName": "Seitung Province",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Seitung_Province_Insight:_Monastery_Temple",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in Seitung Province.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 554,
+    "achievementId": 6410,
+    "sourceType": "insight",
+    "name": "Seitung Province Insight: Naga Island",
+    "shortName": "Naga Island",
+    "mapName": "Seitung Province",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Seitung_Province_Insight:_Naga_Island",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in Seitung Province.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 608,
+    "achievementId": 6277,
+    "sourceType": "insight",
+    "name": "Seitung Province Insight: Northern Cherry Blossom",
+    "shortName": "Northern Cherry Blossom",
+    "mapName": "Seitung Province",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Seitung_Province_Insight:_Northern_Cherry_Blossom",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in Seitung Province.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 639,
+    "achievementId": 6087,
+    "sourceType": "insight",
+    "name": "Seitung Province Insight: Shore Peaks",
+    "shortName": "Shore Peaks",
+    "mapName": "Seitung Province",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Seitung_Province_Insight:_Shore_Peaks",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in Seitung Province.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 574,
+    "achievementId": 6479,
+    "sourceType": "insight",
+    "name": "Seitung Province Insight: Valor Shrine",
+    "shortName": "Valor Shrine",
+    "mapName": "Seitung Province",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Seitung_Province_Insight:_Valor_Shrine",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in Seitung Province.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 628,
+    "achievementId": 6105,
+    "sourceType": "insight",
+    "name": "Seitung Province Insight: Zen Daijun Cat Island",
+    "shortName": "Zen Daijun Cat Island",
+    "mapName": "Seitung Province",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Seitung_Province_Insight:_Zen_Daijun_Cat_Island",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in Seitung Province.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 649,
+    "achievementId": 6149,
+    "sourceType": "insight",
+    "name": "Seitung Province Insight: Zen Daijun Temple",
+    "shortName": "Zen Daijun Temple",
+    "mapName": "Seitung Province",
+    "region": "Jade",
+    "regionName": "End of Dragons",
+    "expansion": "End of Dragons",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Seitung_Province_Insight:_Zen_Daijun_Temple",
+    "description": null,
+    "requirement": "Discover this End of Dragons Mastery Insight in Seitung Province.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 144,
+    "achievementId": 2608,
+    "sourceType": "insight",
+    "name": "Auric Basin Insight: Burnisher Quarry",
+    "shortName": "Burnisher Quarry",
+    "mapName": "Auric Basin",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Auric_Basin_Insight:_Burnisher_Quarry",
+    "description": null,
+    "requirement": "Discover Insights of Maguuma Mastery in Auric Basin.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 120,
+    "achievementId": 2267,
+    "sourceType": "insight",
+    "name": "Auric Basin Insight: Eastwatch Bluff",
+    "shortName": "Eastwatch Bluff",
+    "mapName": "Auric Basin",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Auric_Basin_Insight:_Eastwatch_Bluff",
+    "description": null,
+    "requirement": "Discover Insights of Maguuma Mastery in Auric Basin.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 116,
+    "achievementId": 2204,
+    "sourceType": "insight",
+    "name": "Auric Basin Insight: Jawatl Grounds",
+    "shortName": "Jawatl Grounds",
+    "mapName": "Auric Basin",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Auric_Basin_Insight:_Jawatl_Grounds",
+    "description": null,
+    "requirement": "Discover Insights of Maguuma Mastery in Auric Basin.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 119,
+    "achievementId": 2143,
+    "sourceType": "insight",
+    "name": "Auric Basin Insight: Lastgear Standing",
+    "shortName": "Lastgear Standing",
+    "mapName": "Auric Basin",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Auric_Basin_Insight:_Lastgear_Standing",
+    "description": null,
+    "requirement": "Discover Insights of Maguuma Mastery in Auric Basin.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 40,
+    "achievementId": 2517,
+    "sourceType": "insight",
+    "name": "Auric Basin Insight: Luminate's Throne",
+    "shortName": "Luminate's Throne",
+    "mapName": "Auric Basin",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Auric_Basin_Insight:_Luminate's_Throne",
+    "description": null,
+    "requirement": "Discover Insights of Maguuma Mastery in Auric Basin.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 137,
+    "achievementId": 2168,
+    "sourceType": "insight",
+    "name": "Auric Basin Insight: Masks of the Fallen",
+    "shortName": "Masks of the Fallen",
+    "mapName": "Auric Basin",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Auric_Basin_Insight:_Masks_of_the_Fallen",
+    "description": null,
+    "requirement": "Discover Insights of Maguuma Mastery in Auric Basin.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 114,
+    "achievementId": 2164,
+    "sourceType": "insight",
+    "name": "Auric Basin Insight: Southwatch Creep",
+    "shortName": "Southwatch Creep",
+    "mapName": "Auric Basin",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Auric_Basin_Insight:_Southwatch_Creep",
+    "description": null,
+    "requirement": "Discover Insights of Maguuma Mastery in Auric Basin.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 59,
+    "achievementId": 2612,
+    "sourceType": "insight",
+    "name": "Auric Basin Insight: The Falls",
+    "shortName": "The Falls",
+    "mapName": "Auric Basin",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Auric_Basin_Insight:_The_Falls",
+    "description": null,
+    "requirement": "Discover Insights of Maguuma Mastery in Auric Basin.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 293,
+    "achievementId": 3240,
+    "sourceType": "insight",
+    "name": "Bitterfrost Frontier Insight: Griffin Old Growth",
+    "shortName": "Griffin Old Growth",
+    "mapName": "Bitterfrost Frontier",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Bitterfrost_Frontier_Insight:_Griffin_Old_Growth",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Bitterfrost Frontier.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 289,
+    "achievementId": 3174,
+    "sourceType": "insight",
+    "name": "Bitterfrost Frontier Insight: The Bitter Cold",
+    "shortName": "The Bitter Cold",
+    "mapName": "Bitterfrost Frontier",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Bitterfrost_Frontier_Insight:_The_Bitter_Cold",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Bitterfrost Frontier.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 291,
+    "achievementId": 3217,
+    "sourceType": "insight",
+    "name": "Bitterfrost Frontier Insight: The Svanir Hive",
+    "shortName": "The Svanir Hive",
+    "mapName": "Bitterfrost Frontier",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Bitterfrost_Frontier_Insight:_The_Svanir_Hive",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Bitterfrost Frontier.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 139,
+    "achievementId": 3078,
+    "sourceType": "insight",
+    "name": "Bloodstone Fen Insight: Fragmented Wastes",
+    "shortName": "Fragmented Wastes",
+    "mapName": "Bloodstone Fen",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Bloodstone_Fen_Insight:_Fragmented_Wastes",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Bloodstone Fen.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 140,
+    "achievementId": 3061,
+    "sourceType": "insight",
+    "name": "Bloodstone Fen Insight: Temple of Renewal",
+    "shortName": "Temple of Renewal",
+    "mapName": "Bloodstone Fen",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Bloodstone_Fen_Insight:_Temple_of_Renewal",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Bloodstone Fen.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 304,
+    "achievementId": 3418,
+    "sourceType": "insight",
+    "name": "Draconis Mons Insight: Savage Rise",
+    "shortName": "Savage Rise",
+    "mapName": "Draconis Mons",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Draconis_Mons_Insight:_Savage_Rise",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Draconis Mons.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 300,
+    "achievementId": 3404,
+    "sourceType": "insight",
+    "name": "Draconis Mons Insight: Scalding Gorge",
+    "shortName": "Scalding Gorge",
+    "mapName": "Draconis Mons",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Draconis_Mons_Insight:_Scalding_Gorge",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Draconis Mons.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 298,
+    "achievementId": 3431,
+    "sourceType": "insight",
+    "name": "Draconis Mons Insight: Western Boiling Sea",
+    "shortName": "Western Boiling Sea",
+    "mapName": "Draconis Mons",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Draconis_Mons_Insight:_Western_Boiling_Sea",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Draconis Mons.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 285,
+    "achievementId": 3116,
+    "sourceType": "insight",
+    "name": "Ember Bay Insight: Ashen Skerries",
+    "shortName": "Ashen Skerries",
+    "mapName": "Ember Bay",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Ember_Bay_Insight:_Ashen_Skerries",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Ember Bay.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 287,
+    "achievementId": 3103,
+    "sourceType": "insight",
+    "name": "Ember Bay Insight: Caliph's Steps",
+    "shortName": "Caliph's Steps",
+    "mapName": "Ember Bay",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Ember_Bay_Insight:_Caliph's_Steps",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Ember Bay.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 173,
+    "achievementId": 3358,
+    "sourceType": "insight",
+    "name": "Lake Doric Insight: Lakeside Bazaar",
+    "shortName": "Lakeside Bazaar",
+    "mapName": "Lake Doric",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Lake_Doric_Insight:_Lakeside_Bazaar",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Lake Doric.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 184,
+    "achievementId": 3377,
+    "sourceType": "insight",
+    "name": "Lake Doric Insight: Melandru's Flourish",
+    "shortName": "Melandru's Flourish",
+    "mapName": "Lake Doric",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Lake_Doric_Insight:_Melandru's_Flourish",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Lake Doric.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 187,
+    "achievementId": 3284,
+    "sourceType": "insight",
+    "name": "Lake Doric Insight: Melandru's Refuge",
+    "shortName": "Melandru's Refuge",
+    "mapName": "Lake Doric",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Lake_Doric_Insight:_Melandru's_Refuge",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Lake Doric.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 156,
+    "achievementId": 3350,
+    "sourceType": "insight",
+    "name": "Lake Doric Insight: Watcher's Hollow",
+    "shortName": "Watcher's Hollow",
+    "mapName": "Lake Doric",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Lake_Doric_Insight:_Watcher's_Hollow",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Lake Doric.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 281,
+    "achievementId": 2824,
+    "sourceType": "insight",
+    "name": "Salvation Pass Mastery",
+    "shortName": "Mastery",
+    "mapName": "Salvation Pass",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Salvation_Pass_Mastery",
+    "description": null,
+    "requirement": "Channel the Maguuma Mastery Insight to earn a Mastery point.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 327,
+    "achievementId": 3490,
+    "sourceType": "insight",
+    "name": "Siren's Landing Insight: Buoyant Bough",
+    "shortName": "Buoyant Bough",
+    "mapName": "Siren's Landing",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Siren's_Landing_Insight:_Buoyant_Bough",
+    "description": null,
+    "requirement": "Discover this Mastery Insight in Siren's Landing.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 316,
+    "achievementId": 3506,
+    "sourceType": "insight",
+    "name": "Siren's Landing Insight: Cliff's Edge",
+    "shortName": "Cliff's Edge",
+    "mapName": "Siren's Landing",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Siren's_Landing_Insight:_Cliff's_Edge",
+    "description": null,
+    "requirement": "Discover this Mastery Insight in Siren's Landing.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 312,
+    "achievementId": 3508,
+    "sourceType": "insight",
+    "name": "Siren's Landing Insight: Dwayna's Tears",
+    "shortName": "Dwayna's Tears",
+    "mapName": "Siren's Landing",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Siren's_Landing_Insight:_Dwayna's_Tears",
+    "description": null,
+    "requirement": "Discover this Mastery Insight in Siren's Landing.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 310,
+    "achievementId": 3477,
+    "sourceType": "insight",
+    "name": "Siren's Landing Insight: Kelp Rock",
+    "shortName": "Kelp Rock",
+    "mapName": "Siren's Landing",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Siren's_Landing_Insight:_Kelp_Rock",
+    "description": null,
+    "requirement": "Discover this Mastery Insight in Siren's Landing.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 308,
+    "achievementId": 3475,
+    "sourceType": "insight",
+    "name": "Siren's Landing Insight: Lava Leap",
+    "shortName": "Lava Leap",
+    "mapName": "Siren's Landing",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Siren's_Landing_Insight:_Lava_Leap",
+    "description": null,
+    "requirement": "Discover this Mastery Insight in Siren's Landing.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 8,
+    "achievementId": 2396,
+    "sourceType": "insight",
+    "name": "Tangled Depths Insight: Northern Confluence",
+    "shortName": "Northern Confluence",
+    "mapName": "Tangled Depths",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Tangled_Depths_Insight:_Northern_Confluence",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Tangled Depths.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 112,
+    "achievementId": 2457,
+    "sourceType": "insight",
+    "name": "Tangled Depths Insight: Nuhoch Lane",
+    "shortName": "Nuhoch Lane",
+    "mapName": "Tangled Depths",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Tangled_Depths_Insight:_Nuhoch_Lane",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Tangled Depths.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 61,
+    "achievementId": 2305,
+    "sourceType": "insight",
+    "name": "Tangled Depths Insight: Order of Whispers Outpost",
+    "shortName": "Order of Whispers Outpost",
+    "mapName": "Tangled Depths",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Tangled_Depths_Insight:_Order_of_Whispers_Outpost",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Tangled Depths.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 20,
+    "achievementId": 2380,
+    "sourceType": "insight",
+    "name": "Tangled Depths Insight: Terraced Hive",
+    "shortName": "Terraced Hive",
+    "mapName": "Tangled Depths",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Tangled_Depths_Insight:_Terraced_Hive",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Tangled Depths.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 46,
+    "achievementId": 2349,
+    "sourceType": "insight",
+    "name": "Tangled Depths Insight: Twisting Viaduct",
+    "shortName": "Twisting Viaduct",
+    "mapName": "Tangled Depths",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Tangled_Depths_Insight:_Twisting_Viaduct",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Tangled Depths.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 86,
+    "achievementId": 2324,
+    "sourceType": "insight",
+    "name": "Verdant Brink Insight: Canopy Over Pact Encampment",
+    "shortName": "Canopy Over Pact Encampment",
+    "mapName": "Verdant Brink",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Verdant_Brink_Insight:_Canopy_Over_Pact_Encampment",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Verdant Brink.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 143,
+    "achievementId": 2147,
+    "sourceType": "insight",
+    "name": "Verdant Brink Insight: Creaking Cavern",
+    "shortName": "Creaking Cavern",
+    "mapName": "Verdant Brink",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Verdant_Brink_Insight:_Creaking_Cavern",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Verdant Brink.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 43,
+    "achievementId": 2149,
+    "sourceType": "insight",
+    "name": "Verdant Brink Insight: Creeping Crevasse",
+    "shortName": "Creeping Crevasse",
+    "mapName": "Verdant Brink",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Verdant_Brink_Insight:_Creeping_Crevasse",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Verdant Brink.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 95,
+    "achievementId": 2339,
+    "sourceType": "insight",
+    "name": "Verdant Brink Insight: Fumerol Caves",
+    "shortName": "Fumerol Caves",
+    "mapName": "Verdant Brink",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Verdant_Brink_Insight:_Fumerol_Caves",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Verdant Brink.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 42,
+    "achievementId": 2150,
+    "sourceType": "insight",
+    "name": "Verdant Brink Insight: Heartless Pass",
+    "shortName": "Heartless Pass",
+    "mapName": "Verdant Brink",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Verdant_Brink_Insight:_Heartless_Pass",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Verdant Brink.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 75,
+    "achievementId": 2146,
+    "sourceType": "insight",
+    "name": "Verdant Brink Insight: Holdfast Hollow",
+    "shortName": "Holdfast Hollow",
+    "mapName": "Verdant Brink",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Verdant_Brink_Insight:_Holdfast_Hollow",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Verdant Brink.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 9,
+    "achievementId": 2148,
+    "sourceType": "insight",
+    "name": "Verdant Brink Insight: Outside Noble Ledges",
+    "shortName": "Outside Noble Ledges",
+    "mapName": "Verdant Brink",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Verdant_Brink_Insight:_Outside_Noble_Ledges",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Verdant Brink.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 3,
+    "achievementId": 2144,
+    "sourceType": "insight",
+    "name": "Verdant Brink Insight: The Corpse Grove",
+    "shortName": "The Corpse Grove",
+    "mapName": "Verdant Brink",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Verdant_Brink_Insight:_The_Corpse_Grove",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Verdant Brink.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 4,
+    "achievementId": 2145,
+    "sourceType": "insight",
+    "name": "Verdant Brink Insight: Thistlevine Ravine",
+    "shortName": "Thistlevine Ravine",
+    "mapName": "Verdant Brink",
+    "region": "Maguuma",
+    "regionName": "Heart of Thorns",
+    "expansion": "Heart of Thorns",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Verdant_Brink_Insight:_Thistlevine_Ravine",
+    "description": null,
+    "requirement": "Discover this Maguuma Mastery Insight in Verdant Brink.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 472,
+    "achievementId": 5058,
+    "sourceType": "insight",
+    "name": "Bjora Marches Insight: Aberrant Forest",
+    "shortName": "Aberrant Forest",
+    "mapName": "Bjora Marches",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Bjora_Marches_Insight:_Aberrant_Forest",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in Bjora Marches.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 476,
+    "achievementId": 5043,
+    "sourceType": "insight",
+    "name": "Bjora Marches Insight: Asgeir's Legacy",
+    "shortName": "Asgeir's Legacy",
+    "mapName": "Bjora Marches",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Bjora_Marches_Insight:_Asgeir's_Legacy",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in Bjora Marches.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 490,
+    "achievementId": 5088,
+    "sourceType": "insight",
+    "name": "Bjora Marches Insight: Drakkar's Lair",
+    "shortName": "Drakkar's Lair",
+    "mapName": "Bjora Marches",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Bjora_Marches_Insight:_Drakkar's_Lair",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in Bjora Marches.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 474,
+    "achievementId": 5057,
+    "sourceType": "insight",
+    "name": "Bjora Marches Insight: Fallen Mountain Overlook",
+    "shortName": "Fallen Mountain Overlook",
+    "mapName": "Bjora Marches",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Bjora_Marches_Insight:_Fallen_Mountain_Overlook",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in Bjora Marches.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 485,
+    "achievementId": 5129,
+    "sourceType": "insight",
+    "name": "Bjora Marches Insight: Frozen Waterfall",
+    "shortName": "Frozen Waterfall",
+    "mapName": "Bjora Marches",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Bjora_Marches_Insight:_Frozen_Waterfall",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in Bjora Marches.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 471,
+    "achievementId": 5041,
+    "sourceType": "insight",
+    "name": "Bjora Marches Insight: Ravenfrost Caverns",
+    "shortName": "Ravenfrost Caverns",
+    "mapName": "Bjora Marches",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Bjora_Marches_Insight:_Ravenfrost_Caverns",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in Bjora Marches.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 492,
+    "achievementId": 5090,
+    "sourceType": "insight",
+    "name": "Bjora Marches Insight: The Lost Kodan Ship",
+    "shortName": "The Lost Kodan Ship",
+    "mapName": "Bjora Marches",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Bjora_Marches_Insight:_The_Lost_Kodan_Ship",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in Bjora Marches.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 544,
+    "achievementId": 5485,
+    "sourceType": "insight",
+    "name": "Champions Insight: Bloodtide Coast",
+    "shortName": "Bloodtide Coast",
+    "mapName": "Champions",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Champions_Insight:_Bloodtide_Coast",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in the Bloodtide Coast Dragon Response Mission, accessed via asura gate in Eye of the North.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 525,
+    "achievementId": 5498,
+    "sourceType": "insight",
+    "name": "Champions Insight: Brisban Wildlands",
+    "shortName": "Brisban Wildlands",
+    "mapName": "Champions",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Champions_Insight:_Brisban_Wildlands",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in the Brisban Wildlands Dragon Response Mission, accessed via asura gate in Eye of the North.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 524,
+    "achievementId": 5478,
+    "sourceType": "insight",
+    "name": "Champions Insight: Caledon Forest",
+    "shortName": "Caledon Forest",
+    "mapName": "Champions",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Champions_Insight:_Caledon_Forest",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in the Caledon Forest Dragon Response Mission, accessed via asura gate in Eye of the North.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 545,
+    "achievementId": 5536,
+    "sourceType": "insight",
+    "name": "Champions Insight: Fields of Ruin",
+    "shortName": "Fields of Ruin",
+    "mapName": "Champions",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Champions_Insight:_Fields_of_Ruin",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in the Fields of Ruin Dragon Response Mission, accessed via asura gate in Eye of the North.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 537,
+    "achievementId": 5515,
+    "sourceType": "insight",
+    "name": "Champions Insight: Fireheart Rise",
+    "shortName": "Fireheart Rise",
+    "mapName": "Champions",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Champions_Insight:_Fireheart_Rise",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in the Fireheart Rise Dragon Response Mission, accessed via asura gate in Eye of the North.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 533,
+    "achievementId": 5533,
+    "sourceType": "insight",
+    "name": "Champions Insight: Gendarran Fields",
+    "shortName": "Gendarran Fields",
+    "mapName": "Champions",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Champions_Insight:_Gendarran_Fields",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in the Gendarran Fields Dragon Response Mission, accessed via asura gate in Eye of the North.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 547,
+    "achievementId": 5504,
+    "sourceType": "insight",
+    "name": "Champions Insight: Lake Doric",
+    "shortName": "Lake Doric",
+    "mapName": "Champions",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Champions_Insight:_Lake_Doric",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in the Lake Doric Dragon Response Mission, accessed via asura gate in Eye of the North.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 542,
+    "achievementId": 5517,
+    "sourceType": "insight",
+    "name": "Champions Insight: Metrica Province",
+    "shortName": "Metrica Province",
+    "mapName": "Champions",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Champions_Insight:_Metrica_Province",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in the Metrica Province Dragon Response Mission, accessed via asura gate in Eye of the North.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 536,
+    "achievementId": 5502,
+    "sourceType": "insight",
+    "name": "Champions Insight: Snowden Drifts",
+    "shortName": "Snowden Drifts",
+    "mapName": "Champions",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Champions_Insight:_Snowden_Drifts",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in the Snowden Drifts Dragon Response Mission, accessed via asura gate in Eye of the North.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 538,
+    "achievementId": 5540,
+    "sourceType": "insight",
+    "name": "Champions Insight: Thunderhead Keep",
+    "shortName": "Thunderhead Keep",
+    "mapName": "Champions",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Champions_Insight:_Thunderhead_Keep",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in the Thunderhead Keep Dragon Response Mission, accessed via asura gate in Eye of the North.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 493,
+    "achievementId": 5333,
+    "sourceType": "insight",
+    "name": "Drizzlewood Coast Insight: Camp Apex",
+    "shortName": "Camp Apex",
+    "mapName": "Drizzlewood Coast",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Drizzlewood_Coast_Insight:_Camp_Apex",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in the Drizzlewood Coast.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 510,
+    "achievementId": 5415,
+    "sourceType": "insight",
+    "name": "Drizzlewood Coast Insight: Camp Cliffs",
+    "shortName": "Camp Cliffs",
+    "mapName": "Drizzlewood Coast",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Drizzlewood_Coast_Insight:_Camp_Cliffs",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in the Drizzlewood Coast.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 512,
+    "achievementId": 5421,
+    "sourceType": "insight",
+    "name": "Drizzlewood Coast Insight: Falls",
+    "shortName": "Falls",
+    "mapName": "Drizzlewood Coast",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Drizzlewood_Coast_Insight:_Falls",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in the Drizzlewood Coast.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 520,
+    "achievementId": 5396,
+    "sourceType": "insight",
+    "name": "Drizzlewood Coast Insight: Frost Citadel",
+    "shortName": "Frost Citadel",
+    "mapName": "Drizzlewood Coast",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Drizzlewood_Coast_Insight:_Frost_Citadel",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in the Drizzlewood Coast.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 504,
+    "achievementId": 5326,
+    "sourceType": "insight",
+    "name": "Drizzlewood Coast Insight: Meditative Falls",
+    "shortName": "Meditative Falls",
+    "mapName": "Drizzlewood Coast",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Drizzlewood_Coast_Insight:_Meditative_Falls",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in the Drizzlewood Coast.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 514,
+    "achievementId": 5374,
+    "sourceType": "insight",
+    "name": "Drizzlewood Coast Insight: Northern Camp",
+    "shortName": "Northern Camp",
+    "mapName": "Drizzlewood Coast",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Drizzlewood_Coast_Insight:_Northern_Camp",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in the Drizzlewood Coast.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 521,
+    "achievementId": 5378,
+    "sourceType": "insight",
+    "name": "Drizzlewood Coast Insight: The Frostveins",
+    "shortName": "The Frostveins",
+    "mapName": "Drizzlewood Coast",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Drizzlewood_Coast_Insight:_The_Frostveins",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in the Drizzlewood Coast.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 503,
+    "achievementId": 5336,
+    "sourceType": "insight",
+    "name": "Drizzlewood Coast Insight: Vulpine Road",
+    "shortName": "Vulpine Road",
+    "mapName": "Drizzlewood Coast",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Drizzlewood_Coast_Insight:_Vulpine_Road",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in the Drizzlewood Coast.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 502,
+    "achievementId": 5303,
+    "sourceType": "insight",
+    "name": "Drizzlewood Coast Insight: Waterfall's Nexus",
+    "shortName": "Waterfall's Nexus",
+    "mapName": "Drizzlewood Coast",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Drizzlewood_Coast_Insight:_Waterfall's_Nexus",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in the Drizzlewood Coast.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 491,
+    "achievementId": 5128,
+    "sourceType": "insight",
+    "name": "Grothmar Valley Insight: Branching Out",
+    "shortName": "Branching Out",
+    "mapName": "Grothmar Valley",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Grothmar_Valley_Insight:_Branching_Out",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in Grothmar Valley.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 484,
+    "achievementId": 5111,
+    "sourceType": "insight",
+    "name": "Grothmar Valley Insight: Shimmering Spire",
+    "shortName": "Shimmering Spire",
+    "mapName": "Grothmar Valley",
+    "region": "Tundra",
+    "regionName": "Icebrood Saga",
+    "expansion": "Icebrood Saga",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Grothmar_Valley_Insight:_Shimmering_Spire",
+    "description": null,
+    "requirement": "Discover this Icebrood Saga Mastery Insight in Grothmar Valley.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 877,
+    "achievementId": 8738,
+    "sourceType": "insight",
+    "name": "Bava Nisos Insight: Central Gullet",
+    "shortName": "Central Gullet",
+    "mapName": "Bava Nisos",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Bava_Nisos_Insight:_Central_Gullet",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery insight in Bava Nisos.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 879,
+    "achievementId": 8734,
+    "sourceType": "insight",
+    "name": "Bava Nisos Insight: Gullet's End",
+    "shortName": "Gullet's End",
+    "mapName": "Bava Nisos",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Bava_Nisos_Insight:_Gullet's_End",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery insight in Bava Nisos.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 874,
+    "achievementId": 8737,
+    "sourceType": "insight",
+    "name": "Bava Nisos Insight: Mantle's Arrival",
+    "shortName": "Mantle's Arrival",
+    "mapName": "Bava Nisos",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Bava_Nisos_Insight:_Mantle's_Arrival",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery insight in Bava Nisos.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 865,
+    "achievementId": 8754,
+    "sourceType": "insight",
+    "name": "Bava Nisos Insight: Northern Bronchial Well",
+    "shortName": "Northern Bronchial Well",
+    "mapName": "Bava Nisos",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Bava_Nisos_Insight:_Northern_Bronchial_Well",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery insight in Bava Nisos.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 880,
+    "achievementId": 8722,
+    "sourceType": "insight",
+    "name": "Bava Nisos Insight: Southern Bronchial Well",
+    "shortName": "Southern Bronchial Well",
+    "mapName": "Bava Nisos",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Bava_Nisos_Insight:_Southern_Bronchial_Well",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery insight in Bava Nisos.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 868,
+    "achievementId": 8779,
+    "sourceType": "insight",
+    "name": "Bava Nisos Insight: Southern Hollow",
+    "shortName": "Southern Hollow",
+    "mapName": "Bava Nisos",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Bava_Nisos_Insight:_Southern_Hollow",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery insight in Bava Nisos.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 771,
+    "achievementId": 8308,
+    "sourceType": "insight",
+    "name": "Janthir Syntri Insight: Bloodtree's Reach",
+    "shortName": "Bloodtree's Reach",
+    "mapName": "Janthir Syntri",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Janthir_Syntri_Insight:_Bloodtree's_Reach",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Janthir Syntri.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 810,
+    "achievementId": 8274,
+    "sourceType": "insight",
+    "name": "Janthir Syntri Insight: Festering Vantage",
+    "shortName": "Festering Vantage",
+    "mapName": "Janthir Syntri",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Janthir_Syntri_Insight:_Festering_Vantage",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Janthir Syntri.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 784,
+    "achievementId": 8254,
+    "sourceType": "insight",
+    "name": "Janthir Syntri Insight: Forager's Lookout",
+    "shortName": "Forager's Lookout",
+    "mapName": "Janthir Syntri",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Janthir_Syntri_Insight:_Forager's_Lookout",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Janthir Syntri.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 818,
+    "achievementId": 8186,
+    "sourceType": "insight",
+    "name": "Janthir Syntri Insight: Greenwood's Corner",
+    "shortName": "Greenwood's Corner",
+    "mapName": "Janthir Syntri",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Janthir_Syntri_Insight:_Greenwood's_Corner",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Janthir Syntri.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 828,
+    "achievementId": 8277,
+    "sourceType": "insight",
+    "name": "Janthir Syntri Insight: Maw's Stone",
+    "shortName": "Maw's Stone",
+    "mapName": "Janthir Syntri",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Janthir_Syntri_Insight:_Maw's_Stone",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Janthir Syntri.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 780,
+    "achievementId": 8225,
+    "sourceType": "insight",
+    "name": "Janthir Syntri Insight: Pillar of Reaping",
+    "shortName": "Pillar of Reaping",
+    "mapName": "Janthir Syntri",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Janthir_Syntri_Insight:_Pillar_of_Reaping",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Janthir Syntri.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 782,
+    "achievementId": 8264,
+    "sourceType": "insight",
+    "name": "Janthir Syntri Insight: Stormy Ascent",
+    "shortName": "Stormy Ascent",
+    "mapName": "Janthir Syntri",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Janthir_Syntri_Insight:_Stormy_Ascent",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Janthir Syntri.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 790,
+    "achievementId": 8211,
+    "sourceType": "insight",
+    "name": "Janthir Syntri Insight: Stricken Cathedral",
+    "shortName": "Stricken Cathedral",
+    "mapName": "Janthir Syntri",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Janthir_Syntri_Insight:_Stricken_Cathedral",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Janthir Syntri.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 811,
+    "achievementId": 8359,
+    "sourceType": "insight",
+    "name": "Janthir Syntri Insight: Sulfurous Climb",
+    "shortName": "Sulfurous Climb",
+    "mapName": "Janthir Syntri",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Janthir_Syntri_Insight:_Sulfurous_Climb",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Janthir Syntri.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 817,
+    "achievementId": 8315,
+    "sourceType": "insight",
+    "name": "Janthir Syntri Insight: Thunder Bay Overlook",
+    "shortName": "Thunder Bay Overlook",
+    "mapName": "Janthir Syntri",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Janthir_Syntri_Insight:_Thunder_Bay_Overlook",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Janthir Syntri.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 836,
+    "achievementId": 8181,
+    "sourceType": "insight",
+    "name": "Janthir Syntri Insight: Tumultuous Tree",
+    "shortName": "Tumultuous Tree",
+    "mapName": "Janthir Syntri",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Janthir_Syntri_Insight:_Tumultuous_Tree",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Janthir Syntri.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 838,
+    "achievementId": 8238,
+    "sourceType": "insight",
+    "name": "Lowland Shore Insight: \"Battle of Ice\" Memorial",
+    "shortName": "\"Battle of Ice\" Memorial",
+    "mapName": "Lowland Shore",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Lowland_Shore_Insight:_\"Battle_of_Ice\"_Memorial",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Lowland Shore.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 803,
+    "achievementId": 8295,
+    "sourceType": "insight",
+    "name": "Lowland Shore Insight: Alessia's Secret",
+    "shortName": "Alessia's Secret",
+    "mapName": "Lowland Shore",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Lowland_Shore_Insight:_Alessia's_Secret",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Lowland Shore.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 786,
+    "achievementId": 8169,
+    "sourceType": "insight",
+    "name": "Lowland Shore Insight: Clearing's Peak",
+    "shortName": "Clearing's Peak",
+    "mapName": "Lowland Shore",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Lowland_Shore_Insight:_Clearing's_Peak",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Lowland Shore.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 814,
+    "achievementId": 8212,
+    "sourceType": "insight",
+    "name": "Lowland Shore Insight: Geyser Flow",
+    "shortName": "Geyser Flow",
+    "mapName": "Lowland Shore",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Lowland_Shore_Insight:_Geyser_Flow",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Lowland Shore.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 813,
+    "achievementId": 8321,
+    "sourceType": "insight",
+    "name": "Lowland Shore Insight: Lupine Reverie",
+    "shortName": "Lupine Reverie",
+    "mapName": "Lowland Shore",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Lowland_Shore_Insight:_Lupine_Reverie",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Lowland Shore.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 830,
+    "achievementId": 8215,
+    "sourceType": "insight",
+    "name": "Lowland Shore Insight: Poky's Perch",
+    "shortName": "Poky's Perch",
+    "mapName": "Lowland Shore",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Lowland_Shore_Insight:_Poky's_Perch",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Lowland Shore.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 767,
+    "achievementId": 8235,
+    "sourceType": "insight",
+    "name": "Lowland Shore Insight: Ruminant Fields",
+    "shortName": "Ruminant Fields",
+    "mapName": "Lowland Shore",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Lowland_Shore_Insight:_Ruminant_Fields",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Lowland Shore.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 812,
+    "achievementId": 8176,
+    "sourceType": "insight",
+    "name": "Lowland Shore Insight: Severed Isle",
+    "shortName": "Severed Isle",
+    "mapName": "Lowland Shore",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Lowland_Shore_Insight:_Severed_Isle",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Lowland Shore.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 820,
+    "achievementId": 8307,
+    "sourceType": "insight",
+    "name": "Lowland Shore Insight: Springs Stand",
+    "shortName": "Springs Stand",
+    "mapName": "Lowland Shore",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Lowland_Shore_Insight:_Springs_Stand",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Lowland Shore.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 837,
+    "achievementId": 8365,
+    "sourceType": "insight",
+    "name": "Lowland Shore Insight: Troll's Treasure",
+    "shortName": "Troll's Treasure",
+    "mapName": "Lowland Shore",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Lowland_Shore_Insight:_Troll's_Treasure",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Lowland Shore.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 793,
+    "achievementId": 8220,
+    "sourceType": "insight",
+    "name": "Lowland Shore Insight: Waterfall Roost",
+    "shortName": "Waterfall Roost",
+    "mapName": "Lowland Shore",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Lowland_Shore_Insight:_Waterfall_Roost",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Lowland Shore.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 860,
+    "achievementId": 8597,
+    "sourceType": "insight",
+    "name": "Mistburned Barrens Insight: Alliance Staging Ground Overlook",
+    "shortName": "Alliance Staging Ground Overlook",
+    "mapName": "Mistburned Barrens",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Mistburned_Barrens_Insight:_Alliance_Staging_Ground_Overlook",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Mistburned Barrens.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 847,
+    "achievementId": 8563,
+    "sourceType": "insight",
+    "name": "Mistburned Barrens Insight: Grand Athenaeum",
+    "shortName": "Grand Athenaeum",
+    "mapName": "Mistburned Barrens",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Mistburned_Barrens_Insight:_Grand_Athenaeum",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Mistburned Barrens.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 848,
+    "achievementId": 8590,
+    "sourceType": "insight",
+    "name": "Mistburned Barrens Insight: Hidden Sacrarium",
+    "shortName": "Hidden Sacrarium",
+    "mapName": "Mistburned Barrens",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Mistburned_Barrens_Insight:_Hidden_Sacrarium",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Mistburned Barrens.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 854,
+    "achievementId": 8588,
+    "sourceType": "insight",
+    "name": "Mistburned Barrens Insight: The Golden Lake Overlook",
+    "shortName": "The Golden Lake Overlook",
+    "mapName": "Mistburned Barrens",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Mistburned_Barrens_Insight:_The_Golden_Lake_Overlook",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Mistburned Barrens.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 846,
+    "achievementId": 8617,
+    "sourceType": "insight",
+    "name": "Mistburned Barrens Insight: The Laboratory Mirror",
+    "shortName": "The Laboratory Mirror",
+    "mapName": "Mistburned Barrens",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Mistburned_Barrens_Insight:_The_Laboratory_Mirror",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Mistburned Barrens.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 853,
+    "achievementId": 8594,
+    "sourceType": "insight",
+    "name": "Mistburned Barrens Insight: Valley of Agony Mirror",
+    "shortName": "Valley of Agony Mirror",
+    "mapName": "Mistburned Barrens",
+    "region": "Wild",
+    "regionName": "Janthir Wilds",
+    "expansion": "Janthir Wilds",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Mistburned_Barrens_Insight:_Valley_of_Agony_Mirror",
+    "description": null,
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Mistburned Barrens.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 391,
+    "achievementId": 3655,
+    "sourceType": "insight",
+    "name": "Crystal Oasis Insight: Amnoon Bazaar",
+    "shortName": "Amnoon Bazaar",
+    "mapName": "Crystal Oasis",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Crystal_Oasis_Insight:_Amnoon_Bazaar",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in Crystal Oasis.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 349,
+    "achievementId": 3714,
+    "sourceType": "insight",
+    "name": "Crystal Oasis Insight: Glint's Legacy",
+    "shortName": "Glint's Legacy",
+    "mapName": "Crystal Oasis",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Crystal_Oasis_Insight:_Glint's_Legacy",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in Crystal Oasis.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 355,
+    "achievementId": 3710,
+    "sourceType": "insight",
+    "name": "Crystal Oasis Insight: Imed's Grotto",
+    "shortName": "Imed's Grotto",
+    "mapName": "Crystal Oasis",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Crystal_Oasis_Insight:_Imed's_Grotto",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in Crystal Oasis.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 361,
+    "achievementId": 3763,
+    "sourceType": "insight",
+    "name": "Crystal Oasis Insight: Old Amnoon",
+    "shortName": "Old Amnoon",
+    "mapName": "Crystal Oasis",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Crystal_Oasis_Insight:_Old_Amnoon",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in Crystal Oasis.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 386,
+    "achievementId": 3717,
+    "sourceType": "insight",
+    "name": "Crystal Oasis Insight: Sanctum of Nabkha",
+    "shortName": "Sanctum of Nabkha",
+    "mapName": "Crystal Oasis",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Crystal_Oasis_Insight:_Sanctum_of_Nabkha",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in Crystal Oasis.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 380,
+    "achievementId": 3805,
+    "sourceType": "insight",
+    "name": "Crystal Oasis Insight: Sifuri Quicksand",
+    "shortName": "Sifuri Quicksand",
+    "mapName": "Crystal Oasis",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Crystal_Oasis_Insight:_Sifuri_Quicksand",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in Crystal Oasis.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 367,
+    "achievementId": 3591,
+    "sourceType": "insight",
+    "name": "Desert Highlands Insight: Above the Flats",
+    "shortName": "Above the Flats",
+    "mapName": "Desert Highlands",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Desert_Highlands_Insight:_Above_the_Flats",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Desert Highlands.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 331,
+    "achievementId": 3671,
+    "sourceType": "insight",
+    "name": "Desert Highlands Insight: Base of the Watchtower",
+    "shortName": "Base of the Watchtower",
+    "mapName": "Desert Highlands",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Desert_Highlands_Insight:_Base_of_the_Watchtower",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Desert Highlands.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 381,
+    "achievementId": 3878,
+    "sourceType": "insight",
+    "name": "Desert Highlands Insight: Brightwater Hollow",
+    "shortName": "Brightwater Hollow",
+    "mapName": "Desert Highlands",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Desert_Highlands_Insight:_Brightwater_Hollow",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Desert Highlands.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 370,
+    "achievementId": 3800,
+    "sourceType": "insight",
+    "name": "Desert Highlands Insight: Derelict Perch",
+    "shortName": "Derelict Perch",
+    "mapName": "Desert Highlands",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Desert_Highlands_Insight:_Derelict_Perch",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Desert Highlands.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 376,
+    "achievementId": 3630,
+    "sourceType": "insight",
+    "name": "Desert Highlands Insight: Discarded Vessels",
+    "shortName": "Discarded Vessels",
+    "mapName": "Desert Highlands",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Desert_Highlands_Insight:_Discarded_Vessels",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Desert Highlands.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 378,
+    "achievementId": 3640,
+    "sourceType": "insight",
+    "name": "Desert Highlands Insight: Giant's Bough",
+    "shortName": "Giant's Bough",
+    "mapName": "Desert Highlands",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Desert_Highlands_Insight:_Giant's_Bough",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Desert Highlands.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 402,
+    "achievementId": 3769,
+    "sourceType": "insight",
+    "name": "Desert Highlands Insight: Highjump Rise",
+    "shortName": "Highjump Rise",
+    "mapName": "Desert Highlands",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Desert_Highlands_Insight:_Highjump_Rise",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Desert Highlands.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 385,
+    "achievementId": 3875,
+    "sourceType": "insight",
+    "name": "Desert Highlands Insight: Kanuz Overlook",
+    "shortName": "Kanuz Overlook",
+    "mapName": "Desert Highlands",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Desert_Highlands_Insight:_Kanuz_Overlook",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Desert Highlands.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 414,
+    "achievementId": 3783,
+    "sourceType": "insight",
+    "name": "Desert Highlands Insight: Lifeblood Falls Grub Ledge",
+    "shortName": "Lifeblood Falls Grub Ledge",
+    "mapName": "Desert Highlands",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Desert_Highlands_Insight:_Lifeblood_Falls_Grub_Ledge",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Desert Highlands.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 336,
+    "achievementId": 3605,
+    "sourceType": "insight",
+    "name": "Desert Highlands Insight: Makali Outpost",
+    "shortName": "Makali Outpost",
+    "mapName": "Desert Highlands",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Desert_Highlands_Insight:_Makali_Outpost",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Desert Highlands.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 390,
+    "achievementId": 3810,
+    "sourceType": "insight",
+    "name": "Desert Highlands Insight: Overreach Spider Nest",
+    "shortName": "Overreach Spider Nest",
+    "mapName": "Desert Highlands",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Desert_Highlands_Insight:_Overreach_Spider_Nest",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Desert Highlands.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 379,
+    "achievementId": 3656,
+    "sourceType": "insight",
+    "name": "Desert Highlands Insight: Palace of Aban",
+    "shortName": "Palace of Aban",
+    "mapName": "Desert Highlands",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Desert_Highlands_Insight:_Palace_of_Aban",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Desert Highlands.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 368,
+    "achievementId": 3755,
+    "sourceType": "insight",
+    "name": "Desert Highlands Insight: Standstill Spire",
+    "shortName": "Standstill Spire",
+    "mapName": "Desert Highlands",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Desert_Highlands_Insight:_Standstill_Spire",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Desert Highlands.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 373,
+    "achievementId": 3713,
+    "sourceType": "insight",
+    "name": "Desert Highlands Insight: Sunderlands Crater",
+    "shortName": "Sunderlands Crater",
+    "mapName": "Desert Highlands",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Desert_Highlands_Insight:_Sunderlands_Crater",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Desert Highlands.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 392,
+    "achievementId": 3610,
+    "sourceType": "insight",
+    "name": "Desert Highlands Insight: The Tombs",
+    "shortName": "The Tombs",
+    "mapName": "Desert Highlands",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Desert_Highlands_Insight:_The_Tombs",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Desert Highlands.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 405,
+    "achievementId": 3695,
+    "sourceType": "insight",
+    "name": "Desolation Insight: Arena of Vayu",
+    "shortName": "Arena of Vayu",
+    "mapName": "Desolation",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Desolation_Insight:_Arena_of_Vayu",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Desolation.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 401,
+    "achievementId": 3659,
+    "sourceType": "insight",
+    "name": "Desolation Insight: Henge of Joko",
+    "shortName": "Henge of Joko",
+    "mapName": "Desolation",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Desolation_Insight:_Henge_of_Joko",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Desolation.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 335,
+    "achievementId": 3592,
+    "sourceType": "insight",
+    "name": "Desolation Insight: Sand Jackal Leap",
+    "shortName": "Sand Jackal Leap",
+    "mapName": "Desolation",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Desolation_Insight:_Sand_Jackal_Leap",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Desolation.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 403,
+    "achievementId": 3573,
+    "sourceType": "insight",
+    "name": "Desolation Insight: Sandfall Sanctum",
+    "shortName": "Sandfall Sanctum",
+    "mapName": "Desolation",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Desolation_Insight:_Sandfall_Sanctum",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Desolation.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 360,
+    "achievementId": 3620,
+    "sourceType": "insight",
+    "name": "Desolation Insight: Shattered Ravines",
+    "shortName": "Shattered Ravines",
+    "mapName": "Desolation",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Desolation_Insight:_Shattered_Ravines",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Desolation.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 350,
+    "achievementId": 3885,
+    "sourceType": "insight",
+    "name": "Desolation Insight: Silent Isle",
+    "shortName": "Silent Isle",
+    "mapName": "Desolation",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Desolation_Insight:_Silent_Isle",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Desolation.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 375,
+    "achievementId": 3600,
+    "sourceType": "insight",
+    "name": "Desolation Insight: Tarstone Weeps",
+    "shortName": "Tarstone Weeps",
+    "mapName": "Desolation",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Desolation_Insight:_Tarstone_Weeps",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Desolation.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 371,
+    "achievementId": 3645,
+    "sourceType": "insight",
+    "name": "Desolation Insight: The Mouth of Torment",
+    "shortName": "The Mouth of Torment",
+    "mapName": "Desolation",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Desolation_Insight:_The_Mouth_of_Torment",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Desolation.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 430,
+    "achievementId": 4206,
+    "sourceType": "insight",
+    "name": "Domain of Kourna Insight: Allied Encampment",
+    "shortName": "Allied Encampment",
+    "mapName": "Domain of Kourna",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Domain_of_Kourna_Insight:_Allied_Encampment",
+    "description": null,
+    "requirement": "Discover this Mastery Insight in the Domain of Kourna.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 435,
+    "achievementId": 4255,
+    "sourceType": "insight",
+    "name": "Domain of Kourna Insight: Bokoss Prison Ruins",
+    "shortName": "Bokoss Prison Ruins",
+    "mapName": "Domain of Kourna",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Domain_of_Kourna_Insight:_Bokoss_Prison_Ruins",
+    "description": null,
+    "requirement": "Discover this Mastery Insight in the Domain of Kourna.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 432,
+    "achievementId": 4213,
+    "sourceType": "insight",
+    "name": "Domain of Kourna Insight: Dabiji Hollows",
+    "shortName": "Dabiji Hollows",
+    "mapName": "Domain of Kourna",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Domain_of_Kourna_Insight:_Dabiji_Hollows",
+    "description": null,
+    "requirement": "Discover this Mastery Insight in the Domain of Kourna.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 434,
+    "achievementId": 4228,
+    "sourceType": "insight",
+    "name": "Domain of Kourna Insight: Dunlon Springs",
+    "shortName": "Dunlon Springs",
+    "mapName": "Domain of Kourna",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Domain_of_Kourna_Insight:_Dunlon_Springs",
+    "description": null,
+    "requirement": "Discover this Mastery Insight in the Domain of Kourna.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 436,
+    "achievementId": 4261,
+    "sourceType": "insight",
+    "name": "Domain of Kourna Insight: Ntouka Pond",
+    "shortName": "Ntouka Pond",
+    "mapName": "Domain of Kourna",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Domain_of_Kourna_Insight:_Ntouka_Pond",
+    "description": null,
+    "requirement": "Discover this Mastery Insight in the Domain of Kourna.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 383,
+    "achievementId": 3803,
+    "sourceType": "insight",
+    "name": "Domain of Vabbi Insight: Kodash Brazier",
+    "shortName": "Kodash Brazier",
+    "mapName": "Domain of Vabbi",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Domain_of_Vabbi_Insight:_Kodash_Brazier",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Domain of Vabbi.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 337,
+    "achievementId": 3692,
+    "sourceType": "insight",
+    "name": "Domain of Vabbi Insight: Yahnur Sandfall",
+    "shortName": "Yahnur Sandfall",
+    "mapName": "Domain of Vabbi",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Domain_of_Vabbi_Insight:_Yahnur_Sandfall",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Domain of Vabbi.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 395,
+    "achievementId": 3841,
+    "sourceType": "insight",
+    "name": "Domain of Vabbi Insight: Zagonur Towers",
+    "shortName": "Zagonur Towers",
+    "mapName": "Domain of Vabbi",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Domain_of_Vabbi_Insight:_Zagonur_Towers",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Domain of Vabbi.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 459,
+    "achievementId": 4735,
+    "sourceType": "insight",
+    "name": "Dragonfall Insight: Above the Umbral Battlegrounds",
+    "shortName": "Above the Umbral Battlegrounds",
+    "mapName": "Dragonfall",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Dragonfall_Insight:_Above_the_Umbral_Battlegrounds",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in Dragonfall.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 462,
+    "achievementId": 4741,
+    "sourceType": "insight",
+    "name": "Dragonfall Insight: Dragon's Snare",
+    "shortName": "Dragon's Snare",
+    "mapName": "Dragonfall",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Dragonfall_Insight:_Dragon's_Snare",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in Dragonfall.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 461,
+    "achievementId": 4690,
+    "sourceType": "insight",
+    "name": "Dragonfall Insight: Gnarlgrove Overlook",
+    "shortName": "Gnarlgrove Overlook",
+    "mapName": "Dragonfall",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Dragonfall_Insight:_Gnarlgrove_Overlook",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in Dragonfall.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 460,
+    "achievementId": 4685,
+    "sourceType": "insight",
+    "name": "Dragonfall Insight: Grenth's Teeth Coastline",
+    "shortName": "Grenth's Teeth Coastline",
+    "mapName": "Dragonfall",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Dragonfall_Insight:_Grenth's_Teeth_Coastline",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in Dragonfall.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 456,
+    "achievementId": 4664,
+    "sourceType": "insight",
+    "name": "Dragonfall Insight: Scorched Cliffs Treetop",
+    "shortName": "Scorched Cliffs Treetop",
+    "mapName": "Dragonfall",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Dragonfall_Insight:_Scorched_Cliffs_Treetop",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in Dragonfall.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 463,
+    "achievementId": 4701,
+    "sourceType": "insight",
+    "name": "Dragonfall Insight: Skyscale Eyrie",
+    "shortName": "Skyscale Eyrie",
+    "mapName": "Dragonfall",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Dragonfall_Insight:_Skyscale_Eyrie",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in Dragonfall.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 416,
+    "achievementId": 3852,
+    "sourceType": "insight",
+    "name": "Elon Riverlands Insight: Deadhouse Vault",
+    "shortName": "Deadhouse Vault",
+    "mapName": "Elon Riverlands",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Elon_Riverlands_Insight:_Deadhouse_Vault",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in Elon Riverlands.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 364,
+    "achievementId": 3795,
+    "sourceType": "insight",
+    "name": "Elon Riverlands Insight: Heroes' Overlook",
+    "shortName": "Heroes' Overlook",
+    "mapName": "Elon Riverlands",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Elon_Riverlands_Insight:_Heroes'_Overlook",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in Elon Riverlands.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 330,
+    "achievementId": 3563,
+    "sourceType": "insight",
+    "name": "Elon Riverlands Insight: Leviathan's Gullet",
+    "shortName": "Leviathan's Gullet",
+    "mapName": "Elon Riverlands",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Elon_Riverlands_Insight:_Leviathan's_Gullet",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in Elon Riverlands.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 393,
+    "achievementId": 3761,
+    "sourceType": "insight",
+    "name": "Elon Riverlands Insight: Ossa's Defeat",
+    "shortName": "Ossa's Defeat",
+    "mapName": "Elon Riverlands",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Elon_Riverlands_Insight:_Ossa's_Defeat",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in Elon Riverlands.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 328,
+    "achievementId": 3704,
+    "sourceType": "insight",
+    "name": "Elon Riverlands Insight: Pillars of Sovereignty",
+    "shortName": "Pillars of Sovereignty",
+    "mapName": "Elon Riverlands",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Elon_Riverlands_Insight:_Pillars_of_Sovereignty",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in Elon Riverlands.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 411,
+    "achievementId": 3603,
+    "sourceType": "insight",
+    "name": "Elon Riverlands Insight: Shallows of Despair",
+    "shortName": "Shallows of Despair",
+    "mapName": "Elon Riverlands",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Elon_Riverlands_Insight:_Shallows_of_Despair",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in Elon Riverlands.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 413,
+    "achievementId": 3701,
+    "sourceType": "insight",
+    "name": "Elon Riverlands Insight: Sovereign Ridge",
+    "shortName": "Sovereign Ridge",
+    "mapName": "Elon Riverlands",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Elon_Riverlands_Insight:_Sovereign_Ridge",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in Elon Riverlands.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 343,
+    "achievementId": 3767,
+    "sourceType": "insight",
+    "name": "Elon Riverlands Insight: Vulture Drifts Summit",
+    "shortName": "Vulture Drifts Summit",
+    "mapName": "Elon Riverlands",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Elon_Riverlands_Insight:_Vulture_Drifts_Summit",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in Elon Riverlands.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 419,
+    "achievementId": 4029,
+    "sourceType": "insight",
+    "name": "Istan Insight: Colossus of Palawadan",
+    "shortName": "Colossus of Palawadan",
+    "mapName": "Istan",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Istan_Insight:_Colossus_of_Palawadan",
+    "description": null,
+    "requirement": "Discover this Istan Mastery Insight in the Domain of Istan.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 421,
+    "achievementId": 3981,
+    "sourceType": "insight",
+    "name": "Istan Insight: Pillar of the Faithless",
+    "shortName": "Pillar of the Faithless",
+    "mapName": "Istan",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Istan_Insight:_Pillar_of_the_Faithless",
+    "description": null,
+    "requirement": "Discover this Istan Mastery Insight in the Domain of Istan.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 425,
+    "achievementId": 4026,
+    "sourceType": "insight",
+    "name": "Istan Insight: The Wobbling Skies",
+    "shortName": "The Wobbling Skies",
+    "mapName": "Istan",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Istan_Insight:_The_Wobbling_Skies",
+    "description": null,
+    "requirement": "Discover this Istan Mastery Insight in the Domain of Istan.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 444,
+    "achievementId": 4380,
+    "sourceType": "insight",
+    "name": "Jahai Insight: Crescent's Prosperity",
+    "shortName": "Crescent's Prosperity",
+    "mapName": "Jahai",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Jahai_Insight:_Crescent's_Prosperity",
+    "description": null,
+    "requirement": "Discover this Mastery Insight in Jahai Bluffs.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 439,
+    "achievementId": 4368,
+    "sourceType": "insight",
+    "name": "Jahai Insight: Fang of the Dragon",
+    "shortName": "Fang of the Dragon",
+    "mapName": "Jahai",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Jahai_Insight:_Fang_of_the_Dragon",
+    "description": null,
+    "requirement": "Discover this Mastery Insight in Jahai Bluffs.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 437,
+    "achievementId": 4386,
+    "sourceType": "insight",
+    "name": "Jahai Insight: Harpy Rock",
+    "shortName": "Harpy Rock",
+    "mapName": "Jahai",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Jahai_Insight:_Harpy_Rock",
+    "description": null,
+    "requirement": "Discover this Mastery Insight in Jahai Bluffs.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 440,
+    "achievementId": 4411,
+    "sourceType": "insight",
+    "name": "Jahai Insight: Scar Overlook",
+    "shortName": "Scar Overlook",
+    "mapName": "Jahai",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Jahai_Insight:_Scar_Overlook",
+    "description": null,
+    "requirement": "Discover this Mastery Insight in Jahai Bluffs.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 443,
+    "achievementId": 4405,
+    "sourceType": "insight",
+    "name": "Jahai Insight: Talon of the Dragon",
+    "shortName": "Talon of the Dragon",
+    "mapName": "Jahai",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Jahai_Insight:_Talon_of_the_Dragon",
+    "description": null,
+    "requirement": "Discover this Mastery Insight in Jahai Bluffs.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 429,
+    "achievementId": 4125,
+    "sourceType": "insight",
+    "name": "Sandswept Isles Insight: Atholma",
+    "shortName": "Atholma",
+    "mapName": "Sandswept Isles",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Sandswept_Isles_Insight:_Atholma",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Sandswept Isles.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 428,
+    "achievementId": 4150,
+    "sourceType": "insight",
+    "name": "Sandswept Isles Insight: Invariant Enclave",
+    "shortName": "Invariant Enclave",
+    "mapName": "Sandswept Isles",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Sandswept_Isles_Insight:_Invariant_Enclave",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Sandswept Isles.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 427,
+    "achievementId": 4134,
+    "sourceType": "insight",
+    "name": "Sandswept Isles Insight: Rata Primus",
+    "shortName": "Rata Primus",
+    "mapName": "Sandswept Isles",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Sandswept_Isles_Insight:_Rata_Primus",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Sandswept Isles.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 426,
+    "achievementId": 4096,
+    "sourceType": "insight",
+    "name": "Sandswept Isles Insight: The Hunting Grounds",
+    "shortName": "The Hunting Grounds",
+    "mapName": "Sandswept Isles",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Sandswept_Isles_Insight:_The_Hunting_Grounds",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Sandswept Isles.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 447,
+    "achievementId": 4525,
+    "sourceType": "insight",
+    "name": "Thunderhead Peaks Insight: Brechnar's Gauntlet",
+    "shortName": "Brechnar's Gauntlet",
+    "mapName": "Thunderhead Peaks",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Thunderhead_Peaks_Insight:_Brechnar's_Gauntlet",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in Thunderhead Peaks.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 448,
+    "achievementId": 4524,
+    "sourceType": "insight",
+    "name": "Thunderhead Peaks Insight: Ironhammer Crossing",
+    "shortName": "Ironhammer Crossing",
+    "mapName": "Thunderhead Peaks",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Thunderhead_Peaks_Insight:_Ironhammer_Crossing",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in Thunderhead Peaks.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 449,
+    "achievementId": 4543,
+    "sourceType": "insight",
+    "name": "Thunderhead Peaks Insight: Shattered Bay",
+    "shortName": "Shattered Bay",
+    "mapName": "Thunderhead Peaks",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Thunderhead_Peaks_Insight:_Shattered_Bay",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in Thunderhead Peaks.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 451,
+    "achievementId": 4578,
+    "sourceType": "insight",
+    "name": "Thunderhead Peaks Insight: Sorrow's Cave",
+    "shortName": "Sorrow's Cave",
+    "mapName": "Thunderhead Peaks",
+    "region": "Desert",
+    "regionName": "Path of Fire",
+    "expansion": "Path of Fire",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Thunderhead_Peaks_Insight:_Sorrow's_Cave",
+    "description": null,
+    "requirement": "Discover this Crystal Desert Mastery Insight in Thunderhead Peaks.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 695,
+    "achievementId": 7182,
+    "sourceType": "insight",
+    "name": "Amnytas Insight: Balanced Perspective",
+    "shortName": "Balanced Perspective",
+    "mapName": "Amnytas",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Amnytas_Insight:_Balanced_Perspective",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Amnytas.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 716,
+    "achievementId": 7213,
+    "sourceType": "insight",
+    "name": "Amnytas Insight: Bastion Shallows",
+    "shortName": "Bastion Shallows",
+    "mapName": "Amnytas",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Amnytas_Insight:_Bastion_Shallows",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Amnytas.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 711,
+    "achievementId": 7045,
+    "sourceType": "insight",
+    "name": "Amnytas Insight: Caveside Lookout",
+    "shortName": "Caveside Lookout",
+    "mapName": "Amnytas",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Amnytas_Insight:_Caveside_Lookout",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Amnytas.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 692,
+    "achievementId": 7046,
+    "sourceType": "insight",
+    "name": "Amnytas Insight: Celestial Pilaster",
+    "shortName": "Celestial Pilaster",
+    "mapName": "Amnytas",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Amnytas_Insight:_Celestial_Pilaster",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Amnytas.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 715,
+    "achievementId": 6999,
+    "sourceType": "insight",
+    "name": "Amnytas Insight: Obscured by the Clouds",
+    "shortName": "Obscured by the Clouds",
+    "mapName": "Amnytas",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Amnytas_Insight:_Obscured_by_the_Clouds",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Amnytas.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 719,
+    "achievementId": 7209,
+    "sourceType": "insight",
+    "name": "Amnytas Insight: The Arboretum",
+    "shortName": "The Arboretum",
+    "mapName": "Amnytas",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Amnytas_Insight:_The_Arboretum",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Amnytas.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 668,
+    "achievementId": 6966,
+    "sourceType": "insight",
+    "name": "Amnytas Insight: The Debate Hall",
+    "shortName": "The Debate Hall",
+    "mapName": "Amnytas",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Amnytas_Insight:_The_Debate_Hall",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Amnytas.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 732,
+    "achievementId": 6977,
+    "sourceType": "insight",
+    "name": "Amnytas Insight: The Plaza of Wisdom",
+    "shortName": "The Plaza of Wisdom",
+    "mapName": "Amnytas",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Amnytas_Insight:_The_Plaza_of_Wisdom",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Amnytas.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 664,
+    "achievementId": 7124,
+    "sourceType": "insight",
+    "name": "Amnytas Insight: Windy Bluff",
+    "shortName": "Windy Bluff",
+    "mapName": "Amnytas",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Amnytas_Insight:_Windy_Bluff",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Amnytas.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 752,
+    "achievementId": 7731,
+    "sourceType": "insight",
+    "name": "Inner Nayos Insight: Abyssal Edge",
+    "shortName": "Abyssal Edge",
+    "mapName": "Inner Nayos",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Inner_Nayos_Insight:_Abyssal_Edge",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Inner Nayos.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 745,
+    "achievementId": 7817,
+    "sourceType": "insight",
+    "name": "Inner Nayos Insight: Branch Vantage Point",
+    "shortName": "Branch Vantage Point",
+    "mapName": "Inner Nayos",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Inner_Nayos_Insight:_Branch_Vantage_Point",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Inner Nayos.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 758,
+    "achievementId": 8014,
+    "sourceType": "insight",
+    "name": "Inner Nayos Insight: Citadel of Zakiros",
+    "shortName": "Citadel of Zakiros",
+    "mapName": "Inner Nayos",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Inner_Nayos_Insight:_Citadel_of_Zakiros",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Inner Nayos.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 663,
+    "achievementId": 7671,
+    "sourceType": "insight",
+    "name": "Inner Nayos Insight: Deep Falls",
+    "shortName": "Deep Falls",
+    "mapName": "Inner Nayos",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Inner_Nayos_Insight:_Deep_Falls",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Inner Nayos.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 744,
+    "achievementId": 7683,
+    "sourceType": "insight",
+    "name": "Inner Nayos Insight: Heitor's Gate",
+    "shortName": "Heitor's Gate",
+    "mapName": "Inner Nayos",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Inner_Nayos_Insight:_Heitor's_Gate",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Inner Nayos.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 742,
+    "achievementId": 7836,
+    "sourceType": "insight",
+    "name": "Inner Nayos Insight: High-Elevation Skyscale Nest",
+    "shortName": "High-Elevation Skyscale Nest",
+    "mapName": "Inner Nayos",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Inner_Nayos_Insight:_High-Elevation_Skyscale_Nest",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Inner Nayos.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 748,
+    "achievementId": 7694,
+    "sourceType": "insight",
+    "name": "Inner Nayos Insight: Lost Altar",
+    "shortName": "Lost Altar",
+    "mapName": "Inner Nayos",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Inner_Nayos_Insight:_Lost_Altar",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Inner Nayos.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 665,
+    "achievementId": 7673,
+    "sourceType": "insight",
+    "name": "Inner Nayos Insight: Memory's Hollow",
+    "shortName": "Memory's Hollow",
+    "mapName": "Inner Nayos",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Inner_Nayos_Insight:_Memory's_Hollow",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Inner Nayos.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 736,
+    "achievementId": 7708,
+    "sourceType": "insight",
+    "name": "Inner Nayos Insight: Mourning's Shade",
+    "shortName": "Mourning's Shade",
+    "mapName": "Inner Nayos",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Inner_Nayos_Insight:_Mourning's_Shade",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Inner Nayos.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 738,
+    "achievementId": 7724,
+    "sourceType": "insight",
+    "name": "Inner Nayos Insight: Southern Extractor",
+    "shortName": "Southern Extractor",
+    "mapName": "Inner Nayos",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Inner_Nayos_Insight:_Southern_Extractor",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Inner Nayos.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 725,
+    "achievementId": 7171,
+    "sourceType": "insight",
+    "name": "Skywatch Archipelago Insight: Above the Jungle",
+    "shortName": "Above the Jungle",
+    "mapName": "Skywatch Archipelago",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Skywatch_Archipelago_Insight:_Above_the_Jungle",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Skywatch Archipelago.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 696,
+    "achievementId": 7188,
+    "sourceType": "insight",
+    "name": "Skywatch Archipelago Insight: Beacon of Ages",
+    "shortName": "Beacon of Ages",
+    "mapName": "Skywatch Archipelago",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Skywatch_Archipelago_Insight:_Beacon_of_Ages",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Skywatch Archipelago.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 734,
+    "achievementId": 7016,
+    "sourceType": "insight",
+    "name": "Skywatch Archipelago Insight: Droknar's Mines",
+    "shortName": "Droknar's Mines",
+    "mapName": "Skywatch Archipelago",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Skywatch_Archipelago_Insight:_Droknar's_Mines",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Skywatch Archipelago.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 722,
+    "achievementId": 7150,
+    "sourceType": "insight",
+    "name": "Skywatch Archipelago Insight: MinSec Server Room",
+    "shortName": "MinSec Server Room",
+    "mapName": "Skywatch Archipelago",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Skywatch_Archipelago_Insight:_MinSec_Server_Room",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Skywatch Archipelago.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 724,
+    "achievementId": 7125,
+    "sourceType": "insight",
+    "name": "Skywatch Archipelago Insight: Rata Novus Foundations",
+    "shortName": "Rata Novus Foundations",
+    "mapName": "Skywatch Archipelago",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Skywatch_Archipelago_Insight:_Rata_Novus_Foundations",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Skywatch Archipelago.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 670,
+    "achievementId": 7086,
+    "sourceType": "insight",
+    "name": "Skywatch Archipelago Insight: Rata Novus Outcrop",
+    "shortName": "Rata Novus Outcrop",
+    "mapName": "Skywatch Archipelago",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Skywatch_Archipelago_Insight:_Rata_Novus_Outcrop",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Skywatch Archipelago.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 682,
+    "achievementId": 7093,
+    "sourceType": "insight",
+    "name": "Skywatch Archipelago Insight: Skyscale Sanctuary",
+    "shortName": "Skyscale Sanctuary",
+    "mapName": "Skywatch Archipelago",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Skywatch_Archipelago_Insight:_Skyscale_Sanctuary",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Skywatch Archipelago.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 704,
+    "achievementId": 7177,
+    "sourceType": "insight",
+    "name": "Skywatch Archipelago Insight: Southern Clearing",
+    "shortName": "Southern Clearing",
+    "mapName": "Skywatch Archipelago",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Skywatch_Archipelago_Insight:_Southern_Clearing",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Skywatch Archipelago.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 701,
+    "achievementId": 7115,
+    "sourceType": "insight",
+    "name": "Skywatch Archipelago Insight: The Fractured Tower",
+    "shortName": "The Fractured Tower",
+    "mapName": "Skywatch Archipelago",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Skywatch_Archipelago_Insight:_The_Fractured_Tower",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Skywatch Archipelago.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 733,
+    "achievementId": 7216,
+    "sourceType": "insight",
+    "name": "Skywatch Archipelago Insight: Under the Dunes",
+    "shortName": "Under the Dunes",
+    "mapName": "Skywatch Archipelago",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Skywatch_Archipelago_Insight:_Under_the_Dunes",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Skywatch Archipelago.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 684,
+    "achievementId": 7006,
+    "sourceType": "insight",
+    "name": "Skywatch Archipelago Insight: War God's Spire",
+    "shortName": "War God's Spire",
+    "mapName": "Skywatch Archipelago",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Skywatch_Archipelago_Insight:_War_God's_Spire",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in Skywatch Archipelago.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 673,
+    "achievementId": 7022,
+    "sourceType": "insight",
+    "name": "Tower Insight: A Bird's Eye View",
+    "shortName": "A Bird's Eye View",
+    "mapName": "Tower",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Tower_Insight:_A_Bird's_Eye_View",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in the Wizard's Tower.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 739,
+    "achievementId": 7000,
+    "sourceType": "insight",
+    "name": "Tower Insight: The Apex",
+    "shortName": "The Apex",
+    "mapName": "Tower",
+    "region": "Sky",
+    "regionName": "Secrets of the Obscure",
+    "expansion": "Secrets of the Obscure",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Tower_Insight:_The_Apex",
+    "description": null,
+    "requirement": "Discover this Secrets of the Obscure Mastery Insight in the Wizard's Tower.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 920,
+    "achievementId": 9006,
+    "sourceType": "insight",
+    "name": "Shipwreck Strand Insight: Breezy Cay",
+    "shortName": "Breezy Cay",
+    "mapName": "Shipwreck Strand",
+    "region": "Magic",
+    "regionName": "Visions of Eternity",
+    "expansion": "Visions of Eternity",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Shipwreck_Strand_Insight:_Breezy_Cay",
+    "description": null,
+    "requirement": "Discover this Visions of Eternity Mastery Insight in Shipwreck Strand.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 891,
+    "achievementId": 8943,
+    "sourceType": "insight",
+    "name": "Shipwreck Strand Insight: Glimmering Arches",
+    "shortName": "Glimmering Arches",
+    "mapName": "Shipwreck Strand",
+    "region": "Magic",
+    "regionName": "Visions of Eternity",
+    "expansion": "Visions of Eternity",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Shipwreck_Strand_Insight:_Glimmering_Arches",
+    "description": null,
+    "requirement": "Discover this Visions of Eternity Mastery Insight in Shipwreck Strand.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 916,
+    "achievementId": 8960,
+    "sourceType": "insight",
+    "name": "Shipwreck Strand Insight: Guarded Glades",
+    "shortName": "Guarded Glades",
+    "mapName": "Shipwreck Strand",
+    "region": "Magic",
+    "regionName": "Visions of Eternity",
+    "expansion": "Visions of Eternity",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Shipwreck_Strand_Insight:_Guarded_Glades",
+    "description": null,
+    "requirement": "Discover this Visions of Eternity Mastery Insight in Shipwreck Strand.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 894,
+    "achievementId": 8962,
+    "sourceType": "insight",
+    "name": "Shipwreck Strand Insight: Guarded Glades 2",
+    "shortName": "Guarded Glades 2",
+    "mapName": "Shipwreck Strand",
+    "region": "Magic",
+    "regionName": "Visions of Eternity",
+    "expansion": "Visions of Eternity",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Shipwreck_Strand_Insight:_Guarded_Glades_2",
+    "description": null,
+    "requirement": "Discover this Visions of Eternity Mastery Insight in Shipwreck Strand.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 921,
+    "achievementId": 8975,
+    "sourceType": "insight",
+    "name": "Shipwreck Strand Insight: Hullgarden",
+    "shortName": "Hullgarden",
+    "mapName": "Shipwreck Strand",
+    "region": "Magic",
+    "regionName": "Visions of Eternity",
+    "expansion": "Visions of Eternity",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Shipwreck_Strand_Insight:_Hullgarden",
+    "description": null,
+    "requirement": "Discover this Visions of Eternity Mastery Insight in Shipwreck Strand.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 913,
+    "achievementId": 8899,
+    "sourceType": "insight",
+    "name": "Shipwreck Strand Insight: Jetsam Point",
+    "shortName": "Jetsam Point",
+    "mapName": "Shipwreck Strand",
+    "region": "Magic",
+    "regionName": "Visions of Eternity",
+    "expansion": "Visions of Eternity",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Shipwreck_Strand_Insight:_Jetsam_Point",
+    "description": null,
+    "requirement": "Discover this Visions of Eternity Mastery Insight in Shipwreck Strand.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 901,
+    "achievementId": 8972,
+    "sourceType": "insight",
+    "name": "Shipwreck Strand Insight: Riddled Cove",
+    "shortName": "Riddled Cove",
+    "mapName": "Shipwreck Strand",
+    "region": "Magic",
+    "regionName": "Visions of Eternity",
+    "expansion": "Visions of Eternity",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Shipwreck_Strand_Insight:_Riddled_Cove",
+    "description": null,
+    "requirement": "Discover this Visions of Eternity Mastery Insight in Shipwreck Strand.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 912,
+    "achievementId": 9066,
+    "sourceType": "insight",
+    "name": "Shipwreck Strand Insight: Riddled Cove 2",
+    "shortName": "Riddled Cove 2",
+    "mapName": "Shipwreck Strand",
+    "region": "Magic",
+    "regionName": "Visions of Eternity",
+    "expansion": "Visions of Eternity",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Shipwreck_Strand_Insight:_Riddled_Cove_2",
+    "description": null,
+    "requirement": "Discover this Visions of Eternity Mastery Insight in Shipwreck Strand.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 909,
+    "achievementId": 8984,
+    "sourceType": "insight",
+    "name": "Shipwreck Strand Insight: Shoalstone",
+    "shortName": "Shoalstone",
+    "mapName": "Shipwreck Strand",
+    "region": "Magic",
+    "regionName": "Visions of Eternity",
+    "expansion": "Visions of Eternity",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Shipwreck_Strand_Insight:_Shoalstone",
+    "description": null,
+    "requirement": "Discover this Visions of Eternity Mastery Insight in Shipwreck Strand.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 906,
+    "achievementId": 8997,
+    "sourceType": "insight",
+    "name": "Shipwreck Strand Insight: Soaring Sands",
+    "shortName": "Soaring Sands",
+    "mapName": "Shipwreck Strand",
+    "region": "Magic",
+    "regionName": "Visions of Eternity",
+    "expansion": "Visions of Eternity",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Shipwreck_Strand_Insight:_Soaring_Sands",
+    "description": null,
+    "requirement": "Discover this Visions of Eternity Mastery Insight in Shipwreck Strand.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 900,
+    "achievementId": 9050,
+    "sourceType": "insight",
+    "name": "Shipwreck Strand Insight: Twisting Hollows",
+    "shortName": "Twisting Hollows",
+    "mapName": "Shipwreck Strand",
+    "region": "Magic",
+    "regionName": "Visions of Eternity",
+    "expansion": "Visions of Eternity",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Shipwreck_Strand_Insight:_Twisting_Hollows",
+    "description": null,
+    "requirement": "Discover this Visions of Eternity Mastery Insight in Shipwreck Strand.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 895,
+    "achievementId": 8912,
+    "sourceType": "insight",
+    "name": "Shipwreck Strand Insight: Twisting Hollows 2",
+    "shortName": "Twisting Hollows 2",
+    "mapName": "Shipwreck Strand",
+    "region": "Magic",
+    "regionName": "Visions of Eternity",
+    "expansion": "Visions of Eternity",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Shipwreck_Strand_Insight:_Twisting_Hollows_2",
+    "description": null,
+    "requirement": "Discover this Visions of Eternity Mastery Insight in Shipwreck Strand.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 924,
+    "achievementId": 9073,
+    "sourceType": "insight",
+    "name": "Starlit Weald Insight: Cloister of Stars",
+    "shortName": "Cloister of Stars",
+    "mapName": "Starlit Weald",
+    "region": "Magic",
+    "regionName": "Visions of Eternity",
+    "expansion": "Visions of Eternity",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Starlit_Weald_Insight:_Cloister_of_Stars",
+    "description": null,
+    "requirement": "Discover this Visions of Eternity Mastery insight in Starlit Weald.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 886,
+    "achievementId": 8901,
+    "sourceType": "insight",
+    "name": "Starlit Weald Insight: Crumbling Precipice",
+    "shortName": "Crumbling Precipice",
+    "mapName": "Starlit Weald",
+    "region": "Magic",
+    "regionName": "Visions of Eternity",
+    "expansion": "Visions of Eternity",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Starlit_Weald_Insight:_Crumbling_Precipice",
+    "description": null,
+    "requirement": "Discover this Visions of Eternity Mastery insight in Starlit Weald.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 890,
+    "achievementId": 8993,
+    "sourceType": "insight",
+    "name": "Starlit Weald Insight: Lost Basilica",
+    "shortName": "Lost Basilica",
+    "mapName": "Starlit Weald",
+    "region": "Magic",
+    "regionName": "Visions of Eternity",
+    "expansion": "Visions of Eternity",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Starlit_Weald_Insight:_Lost_Basilica",
+    "description": null,
+    "requirement": "Discover this Visions of Eternity Mastery insight in Starlit Weald.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 893,
+    "achievementId": 8956,
+    "sourceType": "insight",
+    "name": "Starlit Weald Insight: Overgrown Thicket",
+    "shortName": "Overgrown Thicket",
+    "mapName": "Starlit Weald",
+    "region": "Magic",
+    "regionName": "Visions of Eternity",
+    "expansion": "Visions of Eternity",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Starlit_Weald_Insight:_Overgrown_Thicket",
+    "description": null,
+    "requirement": "Discover this Visions of Eternity Mastery insight in Starlit Weald.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 899,
+    "achievementId": 8927,
+    "sourceType": "insight",
+    "name": "Starlit Weald Insight: Skyshroud Canopy",
+    "shortName": "Skyshroud Canopy",
+    "mapName": "Starlit Weald",
+    "region": "Magic",
+    "regionName": "Visions of Eternity",
+    "expansion": "Visions of Eternity",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Starlit_Weald_Insight:_Skyshroud_Canopy",
+    "description": null,
+    "requirement": "Discover this Visions of Eternity Mastery insight in Starlit Weald.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 919,
+    "achievementId": 9015,
+    "sourceType": "insight",
+    "name": "Starlit Weald Insight: Skyshroud Canopy Ruins",
+    "shortName": "Skyshroud Canopy Ruins",
+    "mapName": "Starlit Weald",
+    "region": "Magic",
+    "regionName": "Visions of Eternity",
+    "expansion": "Visions of Eternity",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Starlit_Weald_Insight:_Skyshroud_Canopy_Ruins",
+    "description": null,
+    "requirement": "Discover this Visions of Eternity Mastery insight in Starlit Weald.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 917,
+    "achievementId": 9012,
+    "sourceType": "insight",
+    "name": "Starlit Weald Insight: The Winding Passage",
+    "shortName": "The Winding Passage",
+    "mapName": "Starlit Weald",
+    "region": "Magic",
+    "regionName": "Visions of Eternity",
+    "expansion": "Visions of Eternity",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Starlit_Weald_Insight:_The_Winding_Passage",
+    "description": null,
+    "requirement": "Discover this Visions of Eternity Mastery insight in Starlit Weald.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  },
+  {
+    "masteryPointId": 882,
+    "achievementId": 8913,
+    "sourceType": "insight",
+    "name": "Starlit Weald Insight: Untamed Crags",
+    "shortName": "Untamed Crags",
+    "mapName": "Starlit Weald",
+    "region": "Magic",
+    "regionName": "Visions of Eternity",
+    "expansion": "Visions of Eternity",
+    "wikiUrl": "https://wiki.guildwars2.com/wiki/Starlit_Weald_Insight:_Untamed_Crags",
+    "description": null,
+    "requirement": "Discover this Visions of Eternity Mastery insight in Starlit Weald.",
+    "lockedText": null,
+    "categoryId": null,
+    "rewardType": "Mastery",
+    "flags": [
+      "Permanent"
+    ]
+  }
+]

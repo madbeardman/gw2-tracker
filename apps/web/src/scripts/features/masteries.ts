@@ -1,4 +1,8 @@
-import { getMasteries, getMasteryPointTotals } from "../staticData";
+import {
+  getMasteries,
+  getMasteryInsights,
+  getMasteryPointTotals,
+} from "../staticData";
 import type {
   AccountMastery,
   AccountMasteryPointsResponse,
@@ -29,6 +33,25 @@ const REGION_ORDER = [
   "Visions of Eternity",
 ];
 
+type MasteryInsightEntry = {
+  masteryPointId: number;
+  achievementId: number | null;
+  sourceType: "insight";
+  name: string | null;
+  shortName: string | null;
+  mapName: string | null;
+  region: string | null;
+  regionName: string | null;
+  expansion: string | null;
+  description: string | null;
+  requirement: string | null;
+  lockedText: string | null;
+  categoryId: number | null;
+  rewardType: string | null;
+  flags: string[];
+  wikiUrl?: string | null;
+};
+
 function getDisplayRegion(region: string): string {
   return REGION_DISPLAY_MAP[region] ?? region;
 }
@@ -36,6 +59,31 @@ function getDisplayRegion(region: string): string {
 function getRegionSortIndex(region: string): number {
   const idx = REGION_ORDER.indexOf(region);
   return idx === -1 ? 999 : idx;
+}
+
+function groupInsightsByRegionAndMap(
+  insights: MasteryInsightEntry[],
+): Map<string, Map<string, MasteryInsightEntry[]>> {
+  const regions = new Map<string, Map<string, MasteryInsightEntry[]>>();
+
+  for (const insight of insights) {
+    const region = insight.regionName ?? "Unknown";
+    const map = insight.mapName ?? "Unknown";
+
+    if (!regions.has(region)) {
+      regions.set(region, new Map());
+    }
+
+    const regionMaps = regions.get(region)!;
+
+    if (!regionMaps.has(map)) {
+      regionMaps.set(map, []);
+    }
+
+    regionMaps.get(map)!.push(insight);
+  }
+
+  return regions;
 }
 
 export async function showMasteries(ctx: UIContext): Promise<void> {
@@ -50,11 +98,13 @@ export async function showMasteries(ctx: UIContext): Promise<void> {
       masteryPointsRaw,
       definitionsRaw,
       regionTotals,
+      insightsRaw,
     ] = await Promise.all([
       ctx.fetchJson("/api/account/masteries"),
       ctx.fetchJson("/api/account/mastery/points"),
       getMasteries(),
       getMasteryPointTotals(),
+      getMasteryInsights(),
     ]);
 
     const accountMasteries = accountMasteriesRaw as AccountMastery[];
@@ -62,6 +112,12 @@ export async function showMasteries(ctx: UIContext): Promise<void> {
       masteryPointsRaw as AccountMasteryPointsResponse;
     const masteryPoints = masteryPointsResponse.totals ?? [];
     const definitions = definitionsRaw as MasteryDefinition[];
+    const insights = Array.isArray(insightsRaw)
+      ? (insightsRaw as MasteryInsightEntry[])
+      : [];
+    const unlockedInsights = new Set<number>(
+      masteryPointsResponse.unlocked ?? [],
+    );
 
     if (!Array.isArray(definitions) || definitions.length === 0) {
       ctx.setTextBlock(["No mastery definitions were loaded."]);
@@ -91,6 +147,8 @@ export async function showMasteries(ctx: UIContext): Promise<void> {
       list.push(def);
       grouped.set(def.region, list);
     }
+
+    const insightsByRegion = groupInsightsByRegionAndMap(insights);
 
     const sortedRegions = [...grouped.entries()].sort(
       ([regionA], [regionB]) => {
@@ -157,6 +215,58 @@ export async function showMasteries(ctx: UIContext): Promise<void> {
           if (nextLevel?.name) {
             lines.push(`  Next: ${nextLevel.name}`);
           }
+        }
+      }
+
+      const regionInsights = insightsByRegion.get(displayRegion);
+
+      if (regionInsights && regionInsights.size > 0) {
+        let regionInsightTotal = 0;
+        let regionInsightUnlocked = 0;
+
+        for (const [, mapInsights] of regionInsights) {
+          regionInsightTotal += mapInsights.length;
+          regionInsightUnlocked += mapInsights.filter((insight) =>
+            unlockedInsights.has(insight.masteryPointId),
+          ).length;
+        }
+
+        lines.push("");
+        lines.push(
+          `Insight Mastery — ${regionInsightUnlocked}/${regionInsightTotal}`,
+        );
+        lines.push("---------------");
+
+        const sortedMaps = [...regionInsights.entries()].sort(([a], [b]) =>
+          a.localeCompare(b),
+        );
+
+        for (const [mapName, mapInsights] of sortedMaps) {
+          const sortedInsights = [...mapInsights].sort((a, b) =>
+            (a.shortName ?? a.name ?? "").localeCompare(
+              b.shortName ?? b.name ?? "",
+            ),
+          );
+
+          const unlockedCount = sortedInsights.filter((insight) =>
+            unlockedInsights.has(insight.masteryPointId),
+          ).length;
+          const totalCount = sortedInsights.length;
+
+          lines.push(`${mapName} — ${unlockedCount}/${totalCount}`);
+
+          for (const insight of sortedInsights) {
+            const unlocked = unlockedInsights.has(insight.masteryPointId);
+            const mark = unlocked ? "✓" : "✗";
+            const label =
+              insight.shortName ?? insight.name ?? "Unknown Insight";
+
+            const wikiSuffix = !unlocked && insight.wikiUrl ? " 🔗" : "";
+
+            lines.push(`  ${mark} ${label}${wikiSuffix}`);
+          }
+
+          lines.push("");
         }
       }
 
