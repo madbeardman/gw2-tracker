@@ -332,7 +332,7 @@ export async function showMasteries(ctx: UIContext): Promise<void> {
             }
           }
 
-          lines.push("");
+          // lines.push("");
         }
       }
 
