@@ -410,7 +410,13 @@ export async function showMasteries(ctx: UIContext): Promise<void> {
 
       if (regionAchievementMasteries && regionAchievementMasteries.length > 0) {
         const sortedAchievementMasteries = [...regionAchievementMasteries].sort(
-          (a, b) => (a.name ?? "").localeCompare(b.name ?? ""),
+          (a, b) => {
+            const aUnlocked = unlockedMasteryPoints.has(a.masteryPointId);
+            const bUnlocked = unlockedMasteryPoints.has(b.masteryPointId);
+
+            if (aUnlocked !== bUnlocked) return aUnlocked ? 1 : -1;
+            return (a.name ?? "").localeCompare(b.name ?? "");
+          },
         );
 
         const achievementUnlockedCount = sortedAchievementMasteries.filter(
