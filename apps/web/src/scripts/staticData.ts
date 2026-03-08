@@ -61,3 +61,8 @@ export async function getMasteryInsights() {
   const res = await fetch("/static/gw2/mastery-insights.json");
   return res.json();
 }
+
+export async function getMasteryAchievementsOnly() {
+  const res = await fetch("/static/gw2/mastery-achievements-only.json");
+  return res.json();
+}

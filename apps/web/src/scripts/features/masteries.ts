@@ -1,5 +1,6 @@
 import {
   getMasteries,
+  getMasteryAchievementsOnly,
   getMasteryInsights,
   getMasteryPointTotals,
 } from "../staticData";
@@ -71,6 +72,23 @@ type MasteryInsightEntry = {
   wikiUrl?: string | null;
 };
 
+type MasteryAchievementEntry = {
+  masteryPointId: number;
+  achievementId: number | null;
+  sourceType: "achievement";
+  name: string | null;
+  region: string | null;
+  regionName: string | null;
+  expansion: string | null;
+  description: string | null;
+  requirement: string | null;
+  lockedText: string | null;
+  categoryId: number | null;
+  rewardType: string | null;
+  flags: string[];
+  wikiUrl?: string | null;
+};
+
 function getDisplayRegion(region: string): string {
   return REGION_DISPLAY_MAP[region] ?? region;
 }
@@ -82,6 +100,19 @@ function getRegionSortIndex(region: string): number {
 
 function getRegionIcon(region: string): string | null {
   return REGION_ICON_MAP[region] ?? null;
+}
+
+function buildProgressBar(completed: number, total: number, width = 8): string {
+  if (total <= 0) {
+    return `[${"░".repeat(width)}]`;
+  }
+
+  const ratio = completed / total;
+  const filled = Math.round(ratio * width);
+  const safeFilled = Math.max(0, Math.min(width, filled));
+  const empty = width - safeFilled;
+
+  return `[${"█".repeat(safeFilled)}${"░".repeat(empty)}]`;
 }
 
 function groupInsightsByRegionAndMap(
@@ -104,6 +135,21 @@ function groupInsightsByRegionAndMap(
     }
 
     regionMaps.get(map)!.push(insight);
+  }
+
+  return regions;
+}
+
+function groupAchievementsByRegion(
+  achievements: MasteryAchievementEntry[],
+): Map<string, MasteryAchievementEntry[]> {
+  const regions = new Map<string, MasteryAchievementEntry[]>();
+
+  for (const achievement of achievements) {
+    const region = achievement.regionName ?? "Unknown";
+    const list = regions.get(region) ?? [];
+    list.push(achievement);
+    regions.set(region, list);
   }
 
   return regions;
@@ -144,12 +190,14 @@ export async function showMasteries(ctx: UIContext): Promise<void> {
       definitionsRaw,
       regionTotals,
       insightsRaw,
+      achievementsOnlyRaw,
     ] = await Promise.all([
       ctx.fetchJson("/api/account/masteries"),
       ctx.fetchJson("/api/account/mastery/points"),
       getMasteries(),
       getMasteryPointTotals(),
       getMasteryInsights(),
+      getMasteryAchievementsOnly(),
     ]);
 
     const accountMasteries = accountMasteriesRaw as AccountMastery[];
@@ -160,7 +208,10 @@ export async function showMasteries(ctx: UIContext): Promise<void> {
     const insights = Array.isArray(insightsRaw)
       ? (insightsRaw as MasteryInsightEntry[])
       : [];
-    const unlockedInsights = new Set<number>(
+    const achievementsOnly = Array.isArray(achievementsOnlyRaw)
+      ? (achievementsOnlyRaw as MasteryAchievementEntry[])
+      : [];
+    const unlockedMasteryPoints = new Set<number>(
       masteryPointsResponse.unlocked ?? [],
     );
 
@@ -194,6 +245,7 @@ export async function showMasteries(ctx: UIContext): Promise<void> {
     }
 
     const insightsByRegion = groupInsightsByRegionAndMap(insights);
+    const achievementsByRegion = groupAchievementsByRegion(achievementsOnly);
 
     const sortedRegions = [...grouped.entries()].sort(
       ([regionA], [regionB]) => {
@@ -264,7 +316,11 @@ export async function showMasteries(ctx: UIContext): Promise<void> {
           lines.push(escapeHtml(`• ${def.name} — ${currentLevel}/${maxLevel}`));
 
           if (nextLevel?.name) {
-            lines.push(escapeHtml(`  Next: ${nextLevel.name}`));
+            lines.push(
+              escapeHtml(
+                `  Next: ${nextLevel.name} - ${nextLevel.description} - (${nextLevel.point_cost} points)`,
+              ),
+            );
           }
         }
       }
@@ -278,14 +334,20 @@ export async function showMasteries(ctx: UIContext): Promise<void> {
         for (const [, mapInsights] of regionInsights) {
           regionInsightTotal += mapInsights.length;
           regionInsightUnlocked += mapInsights.filter((insight) =>
-            unlockedInsights.has(insight.masteryPointId),
+            unlockedMasteryPoints.has(insight.masteryPointId),
           ).length;
         }
 
         lines.push("");
+
+        const regionInsightBar =
+          regionInsightUnlocked < regionInsightTotal
+            ? ` ${buildProgressBar(regionInsightUnlocked, regionInsightTotal)}`
+            : "";
+
         lines.push(
           escapeHtml(
-            `Insight Mastery — ${regionInsightUnlocked}/${regionInsightTotal}`,
+            `Insight Mastery — ${regionInsightUnlocked}/${regionInsightTotal}${regionInsightBar}`,
           ),
         );
         lines.push("---------------");
@@ -302,14 +364,23 @@ export async function showMasteries(ctx: UIContext): Promise<void> {
           );
 
           const unlockedCount = sortedInsights.filter((insight) =>
-            unlockedInsights.has(insight.masteryPointId),
+            unlockedMasteryPoints.has(insight.masteryPointId),
           ).length;
           const totalCount = sortedInsights.length;
 
-          lines.push(escapeHtml(`${mapName} — ${unlockedCount}/${totalCount}`));
+          const mapProgressBar =
+            unlockedCount < totalCount
+              ? ` ${buildProgressBar(unlockedCount, totalCount)}`
+              : "";
+
+          lines.push(
+            escapeHtml(
+              `${mapName} — ${unlockedCount}/${totalCount}${mapProgressBar}`,
+            ),
+          );
 
           for (const insight of sortedInsights) {
-            const unlocked = unlockedInsights.has(insight.masteryPointId);
+            const unlocked = unlockedMasteryPoints.has(insight.masteryPointId);
             const mark = unlocked ? "✓" : "✗";
             const label =
               insight.shortName ?? insight.name ?? "Unknown Insight";
@@ -331,8 +402,63 @@ export async function showMasteries(ctx: UIContext): Promise<void> {
               );
             }
           }
+        }
+      }
 
-          // lines.push("");
+      const regionAchievementMasteries =
+        achievementsByRegion.get(displayRegion);
+
+      if (regionAchievementMasteries && regionAchievementMasteries.length > 0) {
+        const sortedAchievementMasteries = [...regionAchievementMasteries].sort(
+          (a, b) => (a.name ?? "").localeCompare(b.name ?? ""),
+        );
+
+        const achievementUnlockedCount = sortedAchievementMasteries.filter(
+          (achievement) =>
+            unlockedMasteryPoints.has(achievement.masteryPointId),
+        ).length;
+        const achievementTotalCount = sortedAchievementMasteries.length;
+
+        lines.push("");
+
+        const achievementProgressBar =
+          achievementUnlockedCount < achievementTotalCount
+            ? ` ${buildProgressBar(
+                achievementUnlockedCount,
+                achievementTotalCount,
+              )}`
+            : "";
+
+        lines.push(
+          escapeHtml(
+            `Achievement Mastery — ${achievementUnlockedCount}/${achievementTotalCount}${achievementProgressBar}`,
+          ),
+        );
+        lines.push("-------------------");
+
+        for (const achievement of sortedAchievementMasteries) {
+          const unlocked = unlockedMasteryPoints.has(
+            achievement.masteryPointId,
+          );
+          const mark = unlocked ? "✓" : "✗";
+          const label = achievement.name ?? "Unknown Achievement";
+          const color = unlocked ? "#2e7d32" : "#c62828";
+
+          if (!unlocked && achievement.wikiUrl) {
+            lines.push(
+              `  <span style="color:${color}">${escapeHtml(mark)} ${escapeHtml(
+                label,
+              )}</span> <a href="${escapeHtml(
+                achievement.wikiUrl,
+              )}" target="_blank" rel="noopener noreferrer" title="Open wiki page">🔗</a>`,
+            );
+          } else {
+            lines.push(
+              `  <span style="color:${color}">${escapeHtml(mark)} ${escapeHtml(
+                label,
+              )}</span>`,
+            );
+          }
         }
       }
 

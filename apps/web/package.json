@@ -12,7 +12,8 @@
     "build:masteries": "node src/scripts/build-masteries.mjs",
     "build:mastery-achievements": "node src/scripts/build-mastery-achievements.mjs",
     "build:mastery-insights": "node src/scripts/build-mastery-insights.mjs",
-    "build:mastery-sources": "node src/scripts/build-mastery-sources.mjs"
+    "build:mastery-sources": "node src/scripts/build-mastery-sources.mjs",
+    "build:mastery-achievements-only": "node src/scripts/build-mastery-achievements-only.mjs"
   },
   "dependencies": {
     "astro": "^5.17.1"
