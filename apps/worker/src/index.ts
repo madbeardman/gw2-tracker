@@ -279,6 +279,39 @@ export default {
       );
     }
 
+    // GET /api/account/achievements (requires 'progression')
+    if (url.pathname === "/api/account/achievements") {
+      const auth = request.headers.get("Authorization");
+      if (!auth?.startsWith("Bearer ")) {
+        return withCors(
+          json(
+            { error: "Missing Authorization: Bearer <API_KEY>" },
+            { status: 401 },
+          ),
+          origin,
+        );
+      }
+
+      const upstream = await fetch(`${GW2_BASE}/v2/account/achievements`, {
+        headers: { Authorization: auth },
+      });
+
+      const bodyText = await upstream.text();
+
+      return withCors(
+        new Response(bodyText, {
+          status: upstream.status,
+          headers: {
+            "content-type":
+              upstream.headers.get("content-type") ??
+              "application/json; charset=utf-8",
+            "cache-control": "no-store",
+          },
+        }),
+        origin,
+      );
+    }
+
     // GET /api/account/masteries (requires 'progression')
     if (url.pathname === "/api/account/masteries") {
       const auth = request.headers.get("Authorization");

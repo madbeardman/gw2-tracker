@@ -89,6 +89,22 @@ type MasteryAchievementEntry = {
   wikiUrl?: string | null;
 };
 
+type AccountAchievementProgress = {
+  id: number;
+  done?: boolean;
+  current?: number;
+  max?: number;
+  bits?: number[];
+};
+
+type RankedAchievementCandidate = {
+  entry: MasteryAchievementEntry;
+  progress: AccountAchievementProgress | null;
+  ratio: number;
+  started: boolean;
+  detail: string | null;
+};
+
 function getDisplayRegion(region: string): string {
   return REGION_DISPLAY_MAP[region] ?? region;
 }
@@ -177,6 +193,136 @@ function renderRegionHeading(region: string): string {
   )}" alt="" style="width:24px;height:24px;vertical-align:text-bottom;margin-left:8px;">`;
 }
 
+function renderStatusLine(
+  mark: string,
+  label: string,
+  color: string,
+  wikiUrl?: string | null,
+  suffix?: string | null,
+): string {
+  const safeMark = escapeHtml(mark);
+  const safeLabel = escapeHtml(label);
+  const safeSuffix = suffix ? ` ${escapeHtml(suffix)}` : "";
+
+  if (wikiUrl) {
+    return `  <span style="color:${color}">${safeMark} ${safeLabel}${safeSuffix}</span> <a href="${escapeHtml(
+      wikiUrl,
+    )}" target="_blank" rel="noopener noreferrer" title="Open wiki page">🔗</a>`;
+  }
+
+  return `  <span style="color:${color}">${safeMark} ${safeLabel}${safeSuffix}</span>`;
+}
+
+function isStartedAchievement(
+  progress: AccountAchievementProgress | null,
+): boolean {
+  if (!progress || progress.done) {
+    return false;
+  }
+
+  if (typeof progress.current === "number" && progress.current > 0) {
+    return true;
+  }
+
+  if (Array.isArray(progress.bits) && progress.bits.length > 0) {
+    return true;
+  }
+
+  return false;
+}
+
+function getProgressRatio(progress: AccountAchievementProgress | null): number {
+  if (!progress || progress.done) {
+    return 0;
+  }
+
+  if (
+    typeof progress.current === "number" &&
+    typeof progress.max === "number" &&
+    progress.max > 0
+  ) {
+    return progress.current / progress.max;
+  }
+
+  if (Array.isArray(progress.bits) && progress.bits.length > 0) {
+    return 0.01 * progress.bits.length;
+  }
+
+  return 0;
+}
+
+function getProgressDetail(
+  progress: AccountAchievementProgress | null,
+): string | null {
+  if (!progress || progress.done) {
+    return null;
+  }
+
+  if (
+    typeof progress.current === "number" &&
+    typeof progress.max === "number" &&
+    progress.max > 0
+  ) {
+    const percent = Math.round((progress.current / progress.max) * 100);
+    return `${progress.current}/${progress.max} (${percent}%)`;
+  }
+
+  if (Array.isArray(progress.bits) && progress.bits.length > 0) {
+    return `${progress.bits.length} steps`;
+  }
+
+  return null;
+}
+
+function buildRankedCandidates(
+  achievements: MasteryAchievementEntry[],
+  progressById: Map<number, AccountAchievementProgress>,
+  unlockedMasteryPoints: Set<number>,
+): RankedAchievementCandidate[] {
+  return achievements
+    .filter(
+      (achievement) => !unlockedMasteryPoints.has(achievement.masteryPointId),
+    )
+    .map((achievement) => {
+      const progress =
+        typeof achievement.achievementId === "number"
+          ? (progressById.get(achievement.achievementId) ?? null)
+          : null;
+
+      return {
+        entry: achievement,
+        progress,
+        ratio: getProgressRatio(progress),
+        started: isStartedAchievement(progress),
+        detail: getProgressDetail(progress),
+      };
+    })
+    .sort((a, b) => {
+      if (a.started !== b.started) {
+        return a.started ? -1 : 1;
+      }
+
+      if (b.ratio !== a.ratio) {
+        return b.ratio - a.ratio;
+      }
+
+      const aMax =
+        typeof a.progress?.max === "number" && a.progress.max > 0
+          ? a.progress.max
+          : Number.MAX_SAFE_INTEGER;
+      const bMax =
+        typeof b.progress?.max === "number" && b.progress.max > 0
+          ? b.progress.max
+          : Number.MAX_SAFE_INTEGER;
+
+      if (aMax !== bMax) {
+        return aMax - bMax;
+      }
+
+      return (a.entry.name ?? "").localeCompare(b.entry.name ?? "");
+    });
+}
+
 export async function showMasteries(ctx: UIContext): Promise<void> {
   resetCharacterHeader(ctx);
   ctx.showPre();
@@ -187,6 +333,7 @@ export async function showMasteries(ctx: UIContext): Promise<void> {
     const [
       accountMasteriesRaw,
       masteryPointsRaw,
+      accountAchievementsRaw,
       definitionsRaw,
       regionTotals,
       insightsRaw,
@@ -194,6 +341,7 @@ export async function showMasteries(ctx: UIContext): Promise<void> {
     ] = await Promise.all([
       ctx.fetchJson("/api/account/masteries"),
       ctx.fetchJson("/api/account/mastery/points"),
+      ctx.fetchJson("/api/account/achievements"),
       getMasteries(),
       getMasteryPointTotals(),
       getMasteryInsights(),
@@ -203,6 +351,9 @@ export async function showMasteries(ctx: UIContext): Promise<void> {
     const accountMasteries = accountMasteriesRaw as AccountMastery[];
     const masteryPointsResponse =
       masteryPointsRaw as AccountMasteryPointsResponse;
+    const accountAchievements = Array.isArray(accountAchievementsRaw)
+      ? (accountAchievementsRaw as AccountAchievementProgress[])
+      : [];
     const masteryPoints = masteryPointsResponse.totals ?? [];
     const definitions = definitionsRaw as MasteryDefinition[];
     const insights = Array.isArray(insightsRaw)
@@ -218,6 +369,16 @@ export async function showMasteries(ctx: UIContext): Promise<void> {
     if (!Array.isArray(definitions) || definitions.length === 0) {
       ctx.setTextBlock(["No mastery definitions were loaded."]);
       return;
+    }
+
+    const progressByAchievementId = new Map<
+      number,
+      AccountAchievementProgress
+    >();
+    for (const achievement of accountAchievements) {
+      if (typeof achievement?.id === "number") {
+        progressByAchievementId.set(achievement.id, achievement);
+      }
     }
 
     const trainedById = new Map<number, AccountMastery>();
@@ -261,6 +422,102 @@ export async function showMasteries(ctx: UIContext): Promise<void> {
     );
 
     const lines: string[] = [];
+
+    // Heatmap
+    lines.push("Mastery Point Heatmap");
+    lines.push("---------------------");
+
+    for (const [region] of sortedRegions) {
+      const displayRegion = getDisplayRegion(region);
+      const regionInsights = insightsByRegion.get(displayRegion);
+      const regionAchievements = achievementsByRegion.get(displayRegion) ?? [];
+
+      let regionInsightTotal = 0;
+      let regionInsightUnlocked = 0;
+
+      if (regionInsights) {
+        for (const [, mapInsights] of regionInsights) {
+          regionInsightTotal += mapInsights.length;
+          regionInsightUnlocked += mapInsights.filter((insight) =>
+            unlockedMasteryPoints.has(insight.masteryPointId),
+          ).length;
+        }
+      }
+
+      const regionAchievementTotal = regionAchievements.length;
+      const regionAchievementUnlocked = regionAchievements.filter(
+        (achievement) => unlockedMasteryPoints.has(achievement.masteryPointId),
+      ).length;
+
+      lines.push(escapeHtml(displayRegion));
+      lines.push(
+        escapeHtml(
+          `  Insights:     ${regionInsightUnlocked}/${regionInsightTotal} ${buildProgressBar(
+            regionInsightUnlocked,
+            regionInsightTotal,
+          )}`,
+        ),
+      );
+      lines.push(
+        escapeHtml(
+          `  Achievements: ${regionAchievementUnlocked}/${regionAchievementTotal} ${buildProgressBar(
+            regionAchievementUnlocked,
+            regionAchievementTotal,
+          )}`,
+        ),
+      );
+      lines.push("");
+    }
+
+    // Next easiest section - option C using account achievement progress
+    const nextByRegion = new Map<string, RankedAchievementCandidate[]>();
+
+    for (const [
+      regionName,
+      regionAchievements,
+    ] of achievementsByRegion.entries()) {
+      const ranked = buildRankedCandidates(
+        regionAchievements,
+        progressByAchievementId,
+        unlockedMasteryPoints,
+      ).filter((candidate) => candidate.started);
+
+      if (ranked.length > 0) {
+        nextByRegion.set(regionName, ranked.slice(0, 3));
+      }
+    }
+
+    if (nextByRegion.size > 0) {
+      lines.push("Next Easiest Achievement Mastery Points");
+      lines.push("--------------------------------------");
+
+      const sortedNextRegions = [...nextByRegion.entries()].sort(([a], [b]) => {
+        const orderA = getRegionSortIndex(a);
+        const orderB = getRegionSortIndex(b);
+
+        if (orderA !== orderB) return orderA - orderB;
+        return a.localeCompare(b);
+      });
+
+      for (const [regionName, candidates] of sortedNextRegions) {
+        lines.push(escapeHtml(regionName));
+
+        for (const candidate of candidates) {
+          const label = candidate.entry.name ?? "Unknown Achievement";
+          lines.push(
+            renderStatusLine(
+              "✗",
+              label,
+              "#c62828",
+              candidate.entry.wikiUrl,
+              candidate.detail,
+            ),
+          );
+        }
+
+        lines.push("");
+      }
+    }
 
     for (const [region, defs] of sortedRegions) {
       const displayRegion = getDisplayRegion(region);
@@ -387,19 +644,9 @@ export async function showMasteries(ctx: UIContext): Promise<void> {
             const color = unlocked ? "#2e7d32" : "#c62828";
 
             if (!unlocked && insight.wikiUrl) {
-              lines.push(
-                `  <span style="color:${color}">${escapeHtml(mark)} ${escapeHtml(
-                  label,
-                )}</span> <a href="${escapeHtml(
-                  insight.wikiUrl,
-                )}" target="_blank" rel="noopener noreferrer" title="Open wiki page">🔗</a>`,
-              );
+              lines.push(renderStatusLine(mark, label, color, insight.wikiUrl));
             } else {
-              lines.push(
-                `  <span style="color:${color}">${escapeHtml(mark)} ${escapeHtml(
-                  label,
-                )}</span>`,
-              );
+              lines.push(renderStatusLine(mark, label, color));
             }
           }
         }
@@ -452,18 +699,10 @@ export async function showMasteries(ctx: UIContext): Promise<void> {
 
           if (!unlocked && achievement.wikiUrl) {
             lines.push(
-              `  <span style="color:${color}">${escapeHtml(mark)} ${escapeHtml(
-                label,
-              )}</span> <a href="${escapeHtml(
-                achievement.wikiUrl,
-              )}" target="_blank" rel="noopener noreferrer" title="Open wiki page">🔗</a>`,
+              renderStatusLine(mark, label, color, achievement.wikiUrl),
             );
           } else {
-            lines.push(
-              `  <span style="color:${color}">${escapeHtml(mark)} ${escapeHtml(
-                label,
-              )}</span>`,
-            );
+            lines.push(renderStatusLine(mark, label, color));
           }
         }
       }
